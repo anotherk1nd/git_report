@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  28 MAR 2017 20:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  29 MAR 2017 16:54
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -895,53 +895,13 @@ Overfull \vbox (57.1399pt too high) detected at line 30
 ]
 (abstract/abstract.tex) [1] [2
 
-] (thesis.toc
-! Missing $ inserted.
-<inserted text> 
-                $
-l.12 ... {section}{\numberline {2.3}ATLAS^{3D}}{4}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\@dottedtocline ...\nobreak \hskip -\leftskip {#4}
-                                                  \nobreak \leaders \hbox {$...
-l.12 ... {section}{\numberline {2.3}ATLAS^{3D}}{4}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.12 ... {section}{\numberline {2.3}ATLAS^{3D}}{4}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[3
+] (thesis.toc [3
 
 ])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.38 \body
-          
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[4] (thesis.lot)
+ [4] (thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
@@ -950,7 +910,8 @@ my insertion and my current dilemma will both disappear.
 
 ] [6
 
-] (thesis.lof)
+]
+(thesis.lof)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
@@ -966,11 +927,24 @@ Chapter 1.
 Chapter 2.
 Missing character: There is no Ï in font cmr12!
 Missing character: There is no ƒ in font cmr12!
-<images/fastslowemsellem2008.png, id=47, 338.01282pt x 279.29344pt>
+<images/morphology_sersic_cortese2016.png, id=47, 393.72093pt x 288.3272pt>
+File: images/morphology_sersic_cortese2016.png Graphic file (type png)
+
+<use images/morphology_sersic_cortese2016.png>
+Package pdftex.def Info: images/morphology_sersic_cortese2016.png used on input
+ line 17.
+(pdftex.def)             Requested size: 393.71997pt x 288.32648pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2
+
+] <images/fastslowemsellem2008.png, id=56, 338.01282pt x 279.29344pt>
 File: images/fastslowemsellem2008.png Graphic file (type png)
 
 <use images/fastslowemsellem2008.png>
-Package pdftex.def Info: images/fastslowemsellem2008.png used on input line 20.
+Package pdftex.def Info: images/fastslowemsellem2008.png used on input line 28.
 
 (pdftex.def)             Requested size: 338.01198pt x 279.29276pt.
 
@@ -978,86 +952,23 @@ Package pdftex.def Info: images/fastslowemsellem2008.png used on input line 20.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.24 #
+l.35 #
       HUBBLE TUNING FORK IMAGE HERE
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-[2
+[3 <./images/morphology_sersic_cortese2016.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [3 <./images/fastslowemsellem2008.png>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.45 \section{ATLAS^{3D}}
-                         
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.45 \section{ATLAS^{3D}}
-                         
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (39.80681pt too wide) in paragraph at lines 46--50
+ [4 <./images/fastslowemsellem2008.png>]
+Overfull \hbox (39.80681pt too wide) in paragraph at lines 57--61
 \T1/cmr/m/n/12 This sur-vey com-bined Ac-cord-ing to [Cap+11] this sur-vey fo-c
 used on a 'volume-limited ($[]\OML/cmm/m/it/12 Mpc[]$\T1/cmr/m/n/12 )
  []
 
-[4]) (methods/methods.tex
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1 \chapter
-            {Methods}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\@begin@tempboxa ...begingroup #2\color@endgroup }
-                                                  \def \width {\wd \@tempbox...
-l.1 \chapter
-            {Methods}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1 \chapter
-            {Methods}
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1 \chapter
-            {Methods}
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-$[]$
- []
-
-[5]
+) (methods/methods.tex [5]
 Chapter 3.
 [6
 
@@ -1092,15 +1003,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [8]
 [9]
 Chapter 4.
-! Undefined control sequence.
-l.7 ...ey were related directly according to \cref
-                                                  {eq:2.4}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 ) (conclusion/conclusion.tex [10
 
 ]
@@ -1358,10 +1260,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19920 strings out of 493333
- 385146 string characters out of 3139191
- 761754 words of memory out of 3000000
- 23205 multiletter control sequences out of 15000+200000
+ 19925 strings out of 493333
+ 385358 string characters out of 3139191
+ 761803 words of memory out of 3000000
+ 23209 multiletter control sequences out of 15000+200000
  30139 words of font info for 86 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,10n,45p,10379b,1355s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1389,9 +1291,9 @@ s/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (23 pages, 312999 bytes).
+Output written on thesis.pdf (23 pages, 354000 bytes).
 PDF statistics:
- 575 PDF objects out of 1000 (max. 8388607)
+ 579 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
