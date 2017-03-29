@@ -1,0 +1,54 @@
+\documentclass[a4paper,12pt,twoside]{report}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=3cm]{geometry}
+\usepackage[T1]{fontenc}
+\include{thesis.preamble}
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+\usepackage{quoting}\quotingsetup{vskip=0pt}
+\usepackage{siunitx}
+\usepackage{amssymb}
+
+\addbibresource{bib.bib} %Imports bibliography file
+
+%\title{Bibliography management: \texttt{biblatex} package}
+%\author{Share\LaTeX}
+%\date{ }
+
+\begin{document}
+
+\title{\LARGE {\bf Using Machine Learning Algorithms to Identify Fast and Slow Rotating Galaxies}\\
+ \vspace*{6mm}
+}
+
+\author{Joshua Fenech}
+\submitdate{October 2008}
+
+\normallinespacing
+\maketitle
+
+\preface
+\input{abstract/abstract}
+%\input{acknowledgements/acknowledgements}
+%\input{dedication/dedication}
+%\input{quotes/quotes}
+
+\body
+\input{introduction/introduction}
+\input{background/background}
+\input{methods/methods}
+\input{results/results}
+
+% body of thesis comes here
+
+\input{conclusion/conclusion}
+
+\appendix
+% appendices come here
+\printbibliography
+%\input{bib/bib}
+
+
+\end{document}

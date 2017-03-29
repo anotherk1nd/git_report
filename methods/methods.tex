@@ -1,0 +1,47 @@
+\chapter{Methods}
+\label{ch:methods}
+\section{The scikit-learn library}It was chosen to implement algorithms from the scikit-learn module of the python language since it "exposes a wide variety of machine learning algorithms, both supervised and unsupervised, using a consistent, task-oriented interface, thus enabling easy comparison of methods for a given application" \cite{Pedregosa2012}. This allowed several different algorithms to be implemented within the same environment and gain meaningful results with minimal prior coding and analysis. The algorithms initially chosen was decision trees (DT's) since these allow both regression and classification analysis, and are known as 'white boxes' due to their relatively transparent process whereby the mechanics of training could be evaluated more readily. 
+
+\section{Decision Trees}
+Different machine learning algorithms use different statistical tests in order to evaluate data and make inferences. DT's emulate a logical classification procedure similar to that used in biology to identify species. Starting from the full dataset a series of binary if-then tests are consequentially performed and data split into 2 branches continuously until a final statistical criterion is satisfied: the sklearn decision tree uses the gini impurity to evaluate the success. The algorithm does this by splitting the data into two branches by choosing the split that minimise the gini index, defined as:
+\begin{equation}
+H(X_m) = \sum_k p_{mk} (1 - p_{mk})
+\end{equation}
+
+ arbitrarily choosing a value that splits the parameter space in 2, forming a node and 2 branches. The 
+
+\iffalse
+This is mathematically formulated as follows.\begin{quote}Given training vectors $x_i \in R^n, i=1,...$, l and a label vector $y \in R^l$, a decision tree recursively partitions the space such that the samples with the same labels are grouped together. Let the data at node m be represented by Q. For each candidate split $\theta = (j, t_m)$ consisting of a feature j and threshold $t_{m}$, partition the data into $Q_{left}(\theta)$ and $Q_{right}(\theta)$ subsets.
+\fi
+
+Sklearn can use the Gini impurity or the entropy as the determining how to split the tree. The default method of Gini impurity was used here. 
+\begin{equation}
+Q_{left}(\theta) = {(x, y) | x_j <= t_m}\end{equation}
+\begin{equation}
+Q_{right}(\theta) = Q \setminus Q_{left}(\theta)
+\end{equation}
+The impurity at m is computed using an impurity function H(), the choice of which depends on the task being solved (classification or regression)
+\begin{equation}
+G(Q, \theta) = \frac{n_{left}}{N_m} H(Q_{left}(\theta)) + \frac{n_{right}}{N_m} H(Q_{right}(\theta))
+\end{equation}
+Select the parameters that minimises the impurity
+\begin{equation}
+\theta^{*} = \operatorname{argmin}_\theta G(Q, \theta)
+\end{equation}
+Recurse for subsets $Q_{left}(\theta^*)$ and $Q_{right}(\theta^*)$ until the maximum allowable depth is reached, $N_m < \min_{samples}$ or $N_m = 1$.
+\cite{sklearn}
+\end{quote}
+The impurity measure used is the gini impurity:
+\begin{equation}
+H(X_m) = \sum_k p_{mk} (1 - p_{mk})
+\end{equation}
+The backend of the SKlearn modules were however not evaluated directly but implemented na\"{i}vely. SKLearn uses the CART(Classification And Regression Tree) method which builds on the ID3 algorithm originally formulated 1986(PROB DON'T NEED PRECEDING SENTENCE, DOESN'T CONTRIBUTE MUCH). The parameters were initialised to their defaults as described in the documentation\cite{sklearn}. Using the modules themselves required elementary use of python to pass the module arrays of necessary values. Implementation proceeded in 2 stages once the data had been suitably formatted. The data was arbitrarily split into 2 groups, a training and a test set, based solely on their position within the results. NEED TO CHECK THEY HAD NO ORDER. For classification, the training set was passed to the module as a list with each item holding the feature value (i.e. S\'{e}rsic index) or a list of feature values if more than one feature used, and target variable (i.e. fast/slow rotator classification, spin parameter value). A function was output that incorporated the learned rules which was then applied to the test data set resulting in an array of predicted values that could be measured against the known values.\
+Initially, the algorithm was run as a classification problem due to the more simple analysis of success and errors. This is because it allowed the success to be evaluated in a more elementary fashion, without recourse to analysing error distributions.
+Decision tree and random forest methods were then applied and the parameters adjusted manually to achieve optimal results. The parameters included:
+\subsection{Parameters}
+SKLearn allows several parameters to be adjusted manually in order to maximise the efficiency of the models, and these are particular to each. For decision trees, these are as follows:
+\section{Data \& Formatting}
+\subsection{ATLAS\textsuperscript{3D}}
+Spectroscopic data (namely S\'ersic index of the single fit and bulge component, n and $n_{b}$ respectively,  and D/T, the Disk-to-Total light ratio) was extracted from \cite{Krajnovic2013} whilst the kinematic parameters $\lambda_{Re}$, $\lambda_{Re/2}$ and the Fast/Slow rotation classification were extracted from \cite{Emsellem2011}.
+The classifier was first trained using the spin parameter $\lambda_{Re}$ with the FS rotation classification as target variable as a test measure, which successfully predicted 100\% of the test set. 
+The algorithm was then trained using n and D/T individually and simultaneously.
