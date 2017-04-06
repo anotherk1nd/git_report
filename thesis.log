@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  29 MAR 2017 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  3 APR 2017 14:21
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -191,10 +191,51 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tabu\tabu.sty"
+Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen131
+\extrarowheight=\dimen132
+\NC@list=\toks23
+\extratabsurround=\skip50
+\backup@length=\skip51
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box28
+\sift@deathcycles=\count108
+\@vwid@loff=\dimen133
+\@vwid@roff=\dimen134
+)
+\c@taburow=\count109
+\tabu@nbcols=\count110
+\tabu@cnt=\count111
+\tabu@Xcol=\count112
+\tabu@alloc=\count113
+\tabu@nested=\count114
+\tabu@target=\dimen135
+\tabu@spreadtarget=\dimen136
+\tabu@naturalX=\dimen137
+\tabucolX=\dimen138
+\tabu@Xsum=\dimen139
+\extrarowdepth=\dimen140
+\abovetabulinesep=\dimen141
+\belowtabulinesep=\dimen142
+\tabustrutrule=\dimen143
+\tabu@thebody=\toks24
+\tabu@footnotes=\toks25
+\tabu@box=\box29
+\tabu@arstrutbox=\box30
+\tabu@hleads=\box31
+\tabu@vleads=\box32
+\tabu@cellskip=\skip52
 ) (blocked.sty)
 (uhead.sty) (boxit.sty) (icthesis.sty)
-\c@definition=\count108
-\c@theorem=\count109
+\c@definition=\count115
+\c@theorem=\count116
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
 Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
@@ -214,7 +255,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count110
+\etb@tempcnta=\count117
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
@@ -231,7 +272,7 @@ Package etexcmds Info: Could not find \expanded.
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count111
+\lrq@indent=\count118
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -246,62 +287,62 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
 \@xs@message=\write3
-\integerpart=\count112
-\decimalpart=\count113
+\integerpart=\count119
+\decimalpart=\count120
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count114
-\c@listtotal=\count115
-\c@listcount=\count116
-\c@liststart=\count117
-\c@liststop=\count118
-\c@citecount=\count119
-\c@citetotal=\count120
-\c@multicitecount=\count121
-\c@multicitetotal=\count122
-\c@instcount=\count123
-\c@maxnames=\count124
-\c@minnames=\count125
-\c@maxitems=\count126
-\c@minitems=\count127
-\c@citecounter=\count128
-\c@savedcitecounter=\count129
-\c@uniquelist=\count130
-\c@uniquename=\count131
-\c@refsection=\count132
-\c@refsegment=\count133
-\c@maxextratitle=\count134
-\c@maxextratitleyear=\count135
-\c@maxextrayear=\count136
-\c@maxextraalpha=\count137
-\c@abbrvpenalty=\count138
-\c@highnamepenalty=\count139
-\c@lownamepenalty=\count140
-\c@maxparens=\count141
-\c@parenlevel=\count142
-\blx@tempcnta=\count143
-\blx@tempcntb=\count144
-\blx@tempcntc=\count145
-\blx@maxsection=\count146
-\blx@maxsegment@0=\count147
-\blx@notetype=\count148
-\blx@parenlevel@text=\count149
-\blx@parenlevel@foot=\count150
-\blx@sectionciteorder@0=\count151
-\labelnumberwidth=\skip50
-\labelalphawidth=\skip51
-\biblabelsep=\skip52
-\bibitemsep=\skip53
-\bibnamesep=\skip54
-\bibinitsep=\skip55
-\bibparsep=\skip56
-\bibhang=\skip57
+\c@tabx@nest=\count121
+\c@listtotal=\count122
+\c@listcount=\count123
+\c@liststart=\count124
+\c@liststop=\count125
+\c@citecount=\count126
+\c@citetotal=\count127
+\c@multicitecount=\count128
+\c@multicitetotal=\count129
+\c@instcount=\count130
+\c@maxnames=\count131
+\c@minnames=\count132
+\c@maxitems=\count133
+\c@minitems=\count134
+\c@citecounter=\count135
+\c@savedcitecounter=\count136
+\c@uniquelist=\count137
+\c@uniquename=\count138
+\c@refsection=\count139
+\c@refsegment=\count140
+\c@maxextratitle=\count141
+\c@maxextratitleyear=\count142
+\c@maxextrayear=\count143
+\c@maxextraalpha=\count144
+\c@abbrvpenalty=\count145
+\c@highnamepenalty=\count146
+\c@lownamepenalty=\count147
+\c@maxparens=\count148
+\c@parenlevel=\count149
+\blx@tempcnta=\count150
+\blx@tempcntb=\count151
+\blx@tempcntc=\count152
+\blx@maxsection=\count153
+\blx@maxsegment@0=\count154
+\blx@notetype=\count155
+\blx@parenlevel@text=\count156
+\blx@parenlevel@foot=\count157
+\blx@sectionciteorder@0=\count158
+\labelnumberwidth=\skip53
+\labelalphawidth=\skip54
+\biblabelsep=\skip55
+\bibitemsep=\skip56
+\bibnamesep=\skip57
+\bibinitsep=\skip58
+\bibparsep=\skip59
+\bibhang=\skip60
 \blx@bcfin=\read2
 \blx@bcfout=\write4
-\c@mincomprange=\count152
-\c@maxcomprange=\count153
-\c@mincompwidth=\count154
+\c@mincomprange=\count159
+\c@maxcomprange=\count160
+\c@mincompwidth=\count161
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -310,78 +351,78 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'alphabetic.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count155
-\c@savedafterword=\count156
-\c@annotator=\count157
-\c@savedannotator=\count158
-\c@author=\count159
-\c@savedauthor=\count160
-\c@bookauthor=\count161
-\c@savedbookauthor=\count162
-\c@commentator=\count163
-\c@savedcommentator=\count164
-\c@editor=\count165
-\c@savededitor=\count166
-\c@editora=\count167
-\c@savededitora=\count168
-\c@editorb=\count169
-\c@savededitorb=\count170
-\c@editorc=\count171
-\c@savededitorc=\count172
-\c@foreword=\count173
-\c@savedforeword=\count174
-\c@holder=\count175
-\c@savedholder=\count176
-\c@introduction=\count177
-\c@savedintroduction=\count178
-\c@namea=\count179
-\c@savednamea=\count180
-\c@nameb=\count181
-\c@savednameb=\count182
-\c@namec=\count183
-\c@savednamec=\count184
-\c@translator=\count185
-\c@savedtranslator=\count186
-\c@shortauthor=\count187
-\c@savedshortauthor=\count188
-\c@shorteditor=\count189
-\c@savedshorteditor=\count190
-\c@labelname=\count191
-\c@savedlabelname=\count192
-\c@institution=\count193
-\c@savedinstitution=\count194
-\c@lista=\count195
-\c@savedlista=\count196
-\c@listb=\count197
-\c@savedlistb=\count198
-\c@listc=\count199
-\c@savedlistc=\count266
-\c@listd=\count267
-\c@savedlistd=\count268
-\c@liste=\count269
-\c@savedliste=\count270
-\c@listf=\count271
-\c@savedlistf=\count272
-\c@location=\count273
-\c@savedlocation=\count274
-\c@organization=\count275
-\c@savedorganization=\count276
-\c@origlocation=\count277
-\c@savedoriglocation=\count278
-\c@origpublisher=\count279
-\c@savedorigpublisher=\count280
-\c@publisher=\count281
-\c@savedpublisher=\count282
-\c@language=\count283
-\c@savedlanguage=\count284
-\c@pageref=\count285
-\c@savedpageref=\count286
-\shorthandwidth=\skip58
-\shortjournalwidth=\skip59
-\shortserieswidth=\skip60
-\shorttitlewidth=\skip61
-\shortauthorwidth=\skip62
-\shorteditorwidth=\skip63
+\c@afterword=\count162
+\c@savedafterword=\count163
+\c@annotator=\count164
+\c@savedannotator=\count165
+\c@author=\count166
+\c@savedauthor=\count167
+\c@bookauthor=\count168
+\c@savedbookauthor=\count169
+\c@commentator=\count170
+\c@savedcommentator=\count171
+\c@editor=\count172
+\c@savededitor=\count173
+\c@editora=\count174
+\c@savededitora=\count175
+\c@editorb=\count176
+\c@savededitorb=\count177
+\c@editorc=\count178
+\c@savededitorc=\count179
+\c@foreword=\count180
+\c@savedforeword=\count181
+\c@holder=\count182
+\c@savedholder=\count183
+\c@introduction=\count184
+\c@savedintroduction=\count185
+\c@namea=\count186
+\c@savednamea=\count187
+\c@nameb=\count188
+\c@savednameb=\count189
+\c@namec=\count190
+\c@savednamec=\count191
+\c@translator=\count192
+\c@savedtranslator=\count193
+\c@shortauthor=\count194
+\c@savedshortauthor=\count195
+\c@shorteditor=\count196
+\c@savedshorteditor=\count197
+\c@labelname=\count198
+\c@savedlabelname=\count199
+\c@institution=\count266
+\c@savedinstitution=\count267
+\c@lista=\count268
+\c@savedlista=\count269
+\c@listb=\count270
+\c@savedlistb=\count271
+\c@listc=\count272
+\c@savedlistc=\count273
+\c@listd=\count274
+\c@savedlistd=\count275
+\c@liste=\count276
+\c@savedliste=\count277
+\c@listf=\count278
+\c@savedlistf=\count279
+\c@location=\count280
+\c@savedlocation=\count281
+\c@organization=\count282
+\c@savedorganization=\count283
+\c@origlocation=\count284
+\c@savedoriglocation=\count285
+\c@origpublisher=\count286
+\c@savedorigpublisher=\count287
+\c@publisher=\count288
+\c@savedpublisher=\count289
+\c@language=\count290
+\c@savedlanguage=\count291
+\c@pageref=\count292
+\c@savedpageref=\count293
+\shorthandwidth=\skip61
+\shortjournalwidth=\skip62
+\shortserieswidth=\skip63
+\shorttitlewidth=\skip64
+\shortauthorwidth=\skip65
+\shorteditorwidth=\skip66
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -393,13 +434,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
 File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count287
-\c@textcitetotal=\count288
-\c@textcitemaxnames=\count289
-\c@biburlnumpenalty=\count290
-\c@biburlucpenalty=\count291
-\c@biburllcpenalty=\count292
-\c@smartand=\count293
+\c@textcitecount=\count294
+\c@textcitetotal=\count295
+\c@textcitemaxnames=\count296
+\c@biburlnumpenalty=\count297
+\c@biburlucpenalty=\count298
+\c@biburllcpenalty=\count299
+\c@smartand=\count300
 )
 Package biblatex Info: Trying to load bibliography style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.bbx' found.
@@ -411,8 +452,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count294
-\c@bbx:relatedtotal=\count295
+\c@bbx:relatedcount=\count301
+\c@bbx:relatedtotal=\count302
 ))
 Package biblatex Info: Trying to load citation style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.cbx' found.
@@ -438,7 +479,7 @@ File: biblatex.cfg
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\quoting\quoting.sty"
 Package: quoting 2014/01/28 v0.1c Consolidated environment for displayed text
-\quo@toppartop=\skip64
+\quo@toppartop=\skip67
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\siunitx\siunitx.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
@@ -454,37 +495,37 @@ L3 Module: l3tl 2017/02/06 v6842 L3 Token lists
 L3 Module: l3str 2017/01/01 v6809 L3 Strings
 L3 Module: l3seq 2017/02/06 v6842 L3 Sequences and stacks
 L3 Module: l3int 2016/12/28 v6805 L3 Integers
-\c_max_int=\count296
-\l_tmpa_int=\count297
-\l_tmpb_int=\count298
-\g_tmpa_int=\count299
-\g_tmpb_int=\count300
+\c_max_int=\count303
+\l_tmpa_int=\count304
+\l_tmpb_int=\count305
+\g_tmpa_int=\count306
+\g_tmpb_int=\count307
 L3 Module: l3quark 2016/12/28 v6805 L3 Quarks
 L3 Module: l3prg 2017/01/01 v6811 L3 Control structures
-\g__prg_map_int=\count301
+\g__prg_map_int=\count308
 L3 Module: l3clist 2017/02/06 v6842 L3 Comma separated lists
 L3 Module: l3token 2016/12/28 v6805 L3 Experimental token manipulation
 L3 Module: l3prop 2016/12/28 v6805 L3 Property lists
 L3 Module: l3msg 2016/12/28 v6805 L3 Messages
 L3 Module: l3file 2016/12/28 v6805 L3 File and I/O operations
-\l_iow_line_count_int=\count302
-\l__iow_target_count_int=\count303
-\l__iow_current_line_int=\count304
-\l__iow_current_word_int=\count305
-\l__iow_current_indentation_int=\count306
+\l_iow_line_count_int=\count309
+\l__iow_target_count_int=\count310
+\l__iow_current_line_int=\count311
+\l__iow_current_word_int=\count312
+\l__iow_current_indentation_int=\count313
 L3 Module: l3skip 2017/01/01 v6809 L3 Dimensions and skips
-\c_zero_dim=\dimen131
-\c_max_dim=\dimen132
-\l_tmpa_dim=\dimen133
-\l_tmpb_dim=\dimen134
-\g_tmpa_dim=\dimen135
-\g_tmpb_dim=\dimen136
-\c_zero_skip=\skip65
-\c_max_skip=\skip66
-\l_tmpa_skip=\skip67
-\l_tmpb_skip=\skip68
-\g_tmpa_skip=\skip69
-\g_tmpb_skip=\skip70
+\c_zero_dim=\dimen144
+\c_max_dim=\dimen145
+\l_tmpa_dim=\dimen146
+\l_tmpb_dim=\dimen147
+\g_tmpa_dim=\dimen148
+\g_tmpb_dim=\dimen149
+\c_zero_skip=\skip68
+\c_max_skip=\skip69
+\l_tmpa_skip=\skip70
+\l_tmpb_skip=\skip71
+\g_tmpa_skip=\skip72
+\g_tmpb_skip=\skip73
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
@@ -492,145 +533,137 @@ L3 Module: l3skip 2017/01/01 v6809 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
 L3 Module: l3keys 2017/01/01 v6811 L3 Key-value interfaces
-\l_keys_choice_int=\count307
+\l_keys_choice_int=\count314
 L3 Module: l3fp 2016/12/28 v6805 L3 Floating points
-\c__fp_leading_shift_int=\count308
-\c__fp_middle_shift_int=\count309
-\c__fp_trailing_shift_int=\count310
-\c__fp_big_leading_shift_int=\count311
-\c__fp_big_middle_shift_int=\count312
-\c__fp_big_trailing_shift_int=\count313
-\c__fp_Bigg_leading_shift_int=\count314
-\c__fp_Bigg_middle_shift_int=\count315
-\c__fp_Bigg_trailing_shift_int=\count316
-\c__fp_rand_size_int=\count317
-\c__fp_rand_four_int=\count318
-\c__fp_rand_eight_int=\count319
+\c__fp_leading_shift_int=\count315
+\c__fp_middle_shift_int=\count316
+\c__fp_trailing_shift_int=\count317
+\c__fp_big_leading_shift_int=\count318
+\c__fp_big_middle_shift_int=\count319
+\c__fp_big_trailing_shift_int=\count320
+\c__fp_Bigg_leading_shift_int=\count321
+\c__fp_Bigg_middle_shift_int=\count322
+\c__fp_Bigg_trailing_shift_int=\count323
+\c__fp_rand_size_int=\count324
+\c__fp_rand_four_int=\count325
+\c__fp_rand_eight_int=\count326
 L3 Module: l3sort 2017/02/07 v6847 L3 Sorting functions
-\l__sort_length_int=\count320
-\l__sort_min_int=\count321
-\l__sort_top_int=\count322
-\l__sort_max_int=\count323
-\l__sort_true_max_int=\count324
-\l__sort_block_int=\count325
-\l__sort_begin_int=\count326
-\l__sort_end_int=\count327
-\l__sort_A_int=\count328
-\l__sort_B_int=\count329
-\l__sort_C_int=\count330
+\l__sort_length_int=\count327
+\l__sort_min_int=\count328
+\l__sort_top_int=\count329
+\l__sort_max_int=\count330
+\l__sort_true_max_int=\count331
+\l__sort_block_int=\count332
+\l__sort_begin_int=\count333
+\l__sort_end_int=\count334
+\l__sort_A_int=\count335
+\l__sort_B_int=\count336
+\l__sort_C_int=\count337
 L3 Module: l3box 2016/12/28 v6805 L3 Experimental boxes
-\c_empty_box=\box28
-\l_tmpa_box=\box29
-\l_tmpb_box=\box30
-\g_tmpa_box=\box31
-\g_tmpb_box=\box32
+\c_empty_box=\box33
+\l_tmpa_box=\box34
+\l_tmpb_box=\box35
+\g_tmpa_box=\box36
+\g_tmpb_box=\box37
 L3 Module: l3coffins 2016/12/28 v6805 L3 Coffin code layer
-\l__coffin_internal_box=\box33
-\l__coffin_internal_dim=\dimen137
-\l__coffin_offset_x_dim=\dimen138
-\l__coffin_offset_y_dim=\dimen139
-\l__coffin_x_dim=\dimen140
-\l__coffin_y_dim=\dimen141
-\l__coffin_x_prime_dim=\dimen142
-\l__coffin_y_prime_dim=\dimen143
-\c_empty_coffin=\box34
-\l__coffin_aligned_coffin=\box35
-\l__coffin_aligned_internal_coffin=\box36
-\l_tmpa_coffin=\box37
-\l_tmpb_coffin=\box38
-\l__coffin_display_coffin=\box39
-\l__coffin_display_coord_coffin=\box40
-\l__coffin_display_pole_coffin=\box41
-\l__coffin_display_offset_dim=\dimen144
-\l__coffin_display_x_dim=\dimen145
-\l__coffin_display_y_dim=\dimen146
+\l__coffin_internal_box=\box38
+\l__coffin_internal_dim=\dimen150
+\l__coffin_offset_x_dim=\dimen151
+\l__coffin_offset_y_dim=\dimen152
+\l__coffin_x_dim=\dimen153
+\l__coffin_y_dim=\dimen154
+\l__coffin_x_prime_dim=\dimen155
+\l__coffin_y_prime_dim=\dimen156
+\c_empty_coffin=\box39
+\l__coffin_aligned_coffin=\box40
+\l__coffin_aligned_internal_coffin=\box41
+\l_tmpa_coffin=\box42
+\l_tmpb_coffin=\box43
+\l__coffin_display_coffin=\box44
+\l__coffin_display_coord_coffin=\box45
+\l__coffin_display_pole_coffin=\box46
+\l__coffin_display_offset_dim=\dimen157
+\l__coffin_display_x_dim=\dimen158
+\l__coffin_display_y_dim=\dimen159
 L3 Module: l3color 2016/12/28 v6805 L3 Experimental color support
 L3 Module: l3sys 2017/01/01 v6811 L3 Experimental system/runtime functions
 L3 Module: l3candidates 2017/01/30 v6835 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen147
-\l__box_bottom_dim=\dimen148
-\l__box_left_dim=\dimen149
-\l__box_right_dim=\dimen150
-\l__box_top_new_dim=\dimen151
-\l__box_bottom_new_dim=\dimen152
-\l__box_left_new_dim=\dimen153
-\l__box_right_new_dim=\dimen154
-\l__box_internal_box=\box42
-\l__coffin_bounding_shift_dim=\dimen155
-\l__coffin_left_corner_dim=\dimen156
-\l__coffin_right_corner_dim=\dimen157
-\l__coffin_bottom_corner_dim=\dimen158
-\l__coffin_top_corner_dim=\dimen159
-\l__coffin_scaled_total_height_dim=\dimen160
-\l__coffin_scaled_width_dim=\dimen161
+\l__box_top_dim=\dimen160
+\l__box_bottom_dim=\dimen161
+\l__box_left_dim=\dimen162
+\l__box_right_dim=\dimen163
+\l__box_top_new_dim=\dimen164
+\l__box_bottom_new_dim=\dimen165
+\l__box_left_new_dim=\dimen166
+\l__box_right_new_dim=\dimen167
+\l__box_internal_box=\box47
+\l__coffin_bounding_shift_dim=\dimen168
+\l__coffin_left_corner_dim=\dimen169
+\l__coffin_right_corner_dim=\dimen170
+\l__coffin_bottom_corner_dim=\dimen171
+\l__coffin_top_corner_dim=\dimen172
+\l__coffin_scaled_total_height_dim=\dimen173
+\l__coffin_scaled_width_dim=\dimen174
 L3 Module: l3luatex 2016/12/28 v6805 L3 Experimental LuaTeX-specific functions
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
 File: l3pdfmode.def 2016/12/28 v6805 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count331
-\l__driver_tmp_box=\box43
+\l__driver_color_stack_int=\count338
+\l__driver_tmp_box=\box48
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
 Package: xparse 2017/02/10 v6878 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count332
-\g__xparse_grabber_int=\count333
-\l__xparse_m_args_int=\count334
-\l__xparse_mandatory_args_int=\count335
-\l__xparse_v_nesting_int=\count336
+\l__xparse_current_arg_int=\count339
+\g__xparse_grabber_int=\count340
+\l__xparse_m_args_int=\count341
+\l__xparse_mandatory_args_int=\count342
+\l__xparse_v_nesting_int=\count343
 )
 Package: siunitx 2017/02/19 v2.7d A comprehensive (SI) units package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen162
-\extrarowheight=\dimen163
-\NC@list=\toks23
-\extratabsurround=\skip71
-\backup@length=\skip72
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty"
 Package: l3keys2e 2017/02/10 v6878 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box44
-\l__siunitx_tmp_dim=\dimen164
-\l__siunitx_tmp_int=\count337
-\l__siunitx_number_mantissa_length_int=\count338
-\l__siunitx_number_uncert_length_int=\count339
-\l__siunitx_round_int=\count340
-\l__siunitx_process_decimal_int=\count341
-\l__siunitx_process_uncertainty_int=\count342
-\l__siunitx_process_fixed_int=\count343
-\l__siunitx_process_integer_min_int=\count344
-\l__siunitx_process_precision_int=\count345
-\l__siunitx_group_min_int=\count346
-\l__siunitx_angle_marker_box=\box45
-\l__siunitx_angle_unit_box=\box46
-\l__siunitx_angle_marker_dim=\dimen165
-\l__siunitx_angle_unit_dim=\dimen166
-\l__siunitx_unit_int=\count347
-\l__siunitx_unit_denominator_int=\count348
-\l__siunitx_unit_numerator_int=\count349
-\l__siunitx_unit_prefix_int=\count350
-\l__siunitx_unit_prefix_base_int=\count351
-\l__siunitx_unit_prefix_gram_int=\count352
-\l__siunitx_number_product_int=\count353
-\c__siunitx_one_fill_skip=\skip73
-\l__siunitx_table_unit_align_skip=\skip74
-\l__siunitx_table_exponent_dim=\dimen167
-\l__siunitx_table_integer_dim=\dimen168
-\l__siunitx_table_mantissa_dim=\dimen169
-\l__siunitx_table_marker_dim=\dimen170
-\l__siunitx_table_result_dim=\dimen171
-\l__siunitx_table_uncert_dim=\dimen172
-\l__siunitx_table_fill_pre_dim=\dimen173
-\l__siunitx_table_fill_post_dim=\dimen174
-\l__siunitx_table_fill_mid_dim=\dimen175
-\l__siunitx_table_pre_box=\box47
-\l__siunitx_table_post_box=\box48
-\l__siunitx_table_mantissa_box=\box49
-\l__siunitx_table_result_box=\box50
-\l__siunitx_table_number_align_skip=\skip75
-\l__siunitx_table_text_align_skip=\skip76
+\l__siunitx_tmp_box=\box49
+\l__siunitx_tmp_dim=\dimen175
+\l__siunitx_tmp_int=\count344
+\l__siunitx_number_mantissa_length_int=\count345
+\l__siunitx_number_uncert_length_int=\count346
+\l__siunitx_round_int=\count347
+\l__siunitx_process_decimal_int=\count348
+\l__siunitx_process_uncertainty_int=\count349
+\l__siunitx_process_fixed_int=\count350
+\l__siunitx_process_integer_min_int=\count351
+\l__siunitx_process_precision_int=\count352
+\l__siunitx_group_min_int=\count353
+\l__siunitx_angle_marker_box=\box50
+\l__siunitx_angle_unit_box=\box51
+\l__siunitx_angle_marker_dim=\dimen176
+\l__siunitx_angle_unit_dim=\dimen177
+\l__siunitx_unit_int=\count354
+\l__siunitx_unit_denominator_int=\count355
+\l__siunitx_unit_numerator_int=\count356
+\l__siunitx_unit_prefix_int=\count357
+\l__siunitx_unit_prefix_base_int=\count358
+\l__siunitx_unit_prefix_gram_int=\count359
+\l__siunitx_number_product_int=\count360
+\c__siunitx_one_fill_skip=\skip74
+\l__siunitx_table_unit_align_skip=\skip75
+\l__siunitx_table_exponent_dim=\dimen178
+\l__siunitx_table_integer_dim=\dimen179
+\l__siunitx_table_mantissa_dim=\dimen180
+\l__siunitx_table_marker_dim=\dimen181
+\l__siunitx_table_result_dim=\dimen182
+\l__siunitx_table_uncert_dim=\dimen183
+\l__siunitx_table_fill_pre_dim=\dimen184
+\l__siunitx_table_fill_post_dim=\dimen185
+\l__siunitx_table_fill_mid_dim=\dimen186
+\l__siunitx_table_pre_box=\box52
+\l__siunitx_table_post_box=\box53
+\l__siunitx_table_mantissa_box=\box54
+\l__siunitx_table_result_box=\box55
+\l__siunitx_table_number_align_skip=\skip76
+\l__siunitx_table_text_align_skip=\skip77
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -770,8 +803,8 @@ Package biblatex Info: ... file 'english.lbx' found.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count354
-\@quotereset=\count355
+\@quotelevel=\count361
+\@quotereset=\count362
  (thesis.aux)
 \openout1 = `thesis.aux'.
 
@@ -823,17 +856,17 @@ LaTeX Font Info:    ... okay on input line 20.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count356
-\scratchdimen=\dimen176
-\scratchbox=\box51
-\nofMPsegments=\count357
-\nofMParguments=\count358
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count359
-\MPscratchDim=\dimen177
-\MPnumerator=\count360
-\makeMPintoPDFobject=\count361
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count363
+\scratchdimen=\dimen187
+\scratchbox=\box56
+\nofMPsegments=\count364
+\nofMParguments=\count365
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count366
+\MPscratchDim=\dimen188
+\MPnumerator=\count367
+\makeMPintoPDFobject=\count368
+\everyMPtoPDFconversion=\toks27
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -870,7 +903,7 @@ Dictionary: translator-basic-dictionary, Language: English
 ("C:\Program Files\MiKTeX 2.9\tex\latex\siunitx\siunitx-abbreviations.cfg"
 File: siunitx-abbreviations.cfg 2017/02/19 v2.7d siunitx: Abbreviated units
 )
-\c__siunitx_mathsf_int=\count362
+\c__siunitx_mathsf_int=\count369
 LaTeX Font Info:    Try loading font information for U+msa on input line 20.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -881,7 +914,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\c__siunitx_mathtt_int=\count363
+\c__siunitx_mathtt_int=\count370
 
 Overfull \vbox (57.1399pt too high) detected at line 30
  []
@@ -927,50 +960,41 @@ Chapter 1.
 Chapter 2.
 Missing character: There is no Ï in font cmr12!
 Missing character: There is no ƒ in font cmr12!
-<images/morphology_sersic_cortese2016.png, id=47, 393.72093pt x 288.3272pt>
+[2
+
+] <images/fastslowemsellem2008.png, id=54, 338.01282pt x 279.29344pt>
+File: images/fastslowemsellem2008.png Graphic file (type png)
+
+<use images/fastslowemsellem2008.png>
+Package pdftex.def Info: images/fastslowemsellem2008.png used on input line 23.
+
+(pdftex.def)             Requested size: 338.01198pt x 279.29276pt.
+
+<images/morphology_sersic_cortese2016.png, id=55, 393.72093pt x 288.3272pt>
 File: images/morphology_sersic_cortese2016.png Graphic file (type png)
 
 <use images/morphology_sersic_cortese2016.png>
 Package pdftex.def Info: images/morphology_sersic_cortese2016.png used on input
- line 17.
+ line 31.
 (pdftex.def)             Requested size: 393.71997pt x 288.32648pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2
 
-] <images/fastslowemsellem2008.png, id=56, 338.01282pt x 279.29344pt>
-File: images/fastslowemsellem2008.png Graphic file (type png)
+LaTeX Warning: Reference `fig:morphologysersic' on page 3 undefined on input li
+ne 35.
 
-<use images/fastslowemsellem2008.png>
-Package pdftex.def Info: images/fastslowemsellem2008.png used on input line 28.
-
-(pdftex.def)             Requested size: 338.01198pt x 279.29276pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-! You can't use `macro parameter character #' in horizontal mode.
-l.35 #
-      HUBBLE TUNING FORK IMAGE HERE
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-[3 <./images/morphology_sersic_cortese2016.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <./images/fastslowemsellem2008.png>]
-Overfull \hbox (39.80681pt too wide) in paragraph at lines 57--61
+[3 <./images/fastslowemsellem2008.png>] [4 <./images/morphology_sersic_cortese2
+016.png>] [5]
+Overfull \hbox (39.80681pt too wide) in paragraph at lines 71--75
 \T1/cmr/m/n/12 This sur-vey com-bined Ac-cord-ing to [Cap+11] this sur-vey fo-c
 used on a 'volume-limited ($[]\OML/cmm/m/it/12 Mpc[]$\T1/cmr/m/n/12 )
  []
 
-) (methods/methods.tex [5]
+) (methods/methods.tex [6]
 Chapter 3.
-[6
+[7
 
 ]
 
@@ -996,25 +1020,25 @@ Things are pretty mixed up, but I think the worst is over.
 
 Underfull \vbox (badness 5217) has occurred while \output is active []
 
- [7])
+ [8])
 (results/results.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
-[9]
+ [9]
+[10]
 Chapter 4.
-) (conclusion/conclusion.tex [10
+) (conclusion/conclusion.tex [11
 
 ]
 Chapter 5.
-) [11
+) [12
 
 ]
 ! Undefined control sequence.
 <to be read again> \edef \blx@tempa {401\x 
                                            {FFFD}\x {FFFD}\x {FFFD}417}
-l.52 
-     
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1024,8 +1048,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <to be read again> ... \blx@tempa {401\x {FFFD}\x 
                                                   {FFFD}\x {FFFD}417}
-l.52 
-     
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1035,8 +1059,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <to be read again> ...pa {401\x {FFFD}\x {FFFD}\x 
                                                   {FFFD}417}
-l.52 
-     
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1046,8 +1070,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 l.1 %%%\x
           {FFF%}\x {FFF%}\x {FFF%}%%%
-l.52 
-      
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1057,8 +1081,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 l.1 %%%\x {FFF%}\x
                    {FFF%}\x {FFF%}%%%
-l.52 
-      
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1068,8 +1092,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 l.1 %%%\x {FFF%}\x {FFF%}\x
                             {FFF%}%%%
-l.52 
-      
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1079,8 +1103,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <to be read again> \edef \blx@tempa {401\x 
                                            {FFFD}\x {FFFD}\x {FFFD}417}
-l.52 
-     
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1090,8 +1114,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <to be read again> ... \blx@tempa {401\x {FFFD}\x 
                                                   {FFFD}\x {FFFD}417}
-l.52 
-     
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1101,8 +1125,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <to be read again> ...pa {401\x {FFFD}\x {FFFD}\x 
                                                   {FFFD}417}
-l.52 
-     
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1112,8 +1136,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 l.1 %%%\x
           {FFF%}\x {FFF%}\x {FFF%}%%%
-l.52 
-      
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1123,8 +1147,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 l.1 %%%\x {FFF%}\x
                    {FFF%}\x {FFF%}%%%
-l.52 
-      
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1134,8 +1158,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 l.1 %%%\x {FFF%}\x {FFF%}\x
                             {FFF%}%%%
-l.52 
-      
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1145,8 +1169,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> 401\x 
                  {fffd}\x {fffd}\x {fffd}417
-l.52 
-     
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1156,8 +1180,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> 401\x {fffd}\x 
                           {fffd}\x {fffd}417
-l.52 
-     
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1167,8 +1191,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> 401\x {fffd}\x {fffd}\x 
                                    {fffd}417
-l.52 
-     
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1181,42 +1205,9 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 ! Undefined control sequence.
 <argument> {The ATLAS 3D project \x 
-                                    {fffd}\x {fffd}\x {fffd} I . A volume-li...
-l.52 
-     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> {The ATLAS 3D project \x {fffd}\x 
-                                             {fffd}\x {fffd} I . A volume-li...
-l.52 
-     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...LAS 3D project \x {fffd}\x {fffd}\x 
-                                                  {fffd} I . A volume-limite...
-l.52 
-     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> {The ATLAS 3D project \x 
                                     {fffd}\x {fffd}\x {fffd} III . A census ...
-l.52 
-     
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1226,8 +1217,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> {The ATLAS 3D project \x {fffd}\x 
                                              {fffd}\x {fffd} III . A census ...
-l.52 
-     
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1237,15 +1228,81 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...LAS 3D project \x {fffd}\x {fffd}\x 
                                                   {fffd} III . A census of t...
-l.52 
-     
+l.52 \end
+         {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[12
+! Undefined control sequence.
+<argument> {The ATLAS 3D project \x 
+                                    {fffd}\x {fffd}\x {fffd} I . A volume-li...
+l.52 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {The ATLAS 3D project \x {fffd}\x 
+                                             {fffd}\x {fffd} I . A volume-li...
+l.52 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...LAS 3D project \x {fffd}\x {fffd}\x 
+                                                  {fffd} I . A volume-limite...
+l.52 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {The ATLAS 3D project \x 
+                                    {fffd}\x {fffd}\x {fffd} III . A census ...
+l.52 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {The ATLAS 3D project \x {fffd}\x 
+                                             {fffd}\x {fffd} III . A census ...
+l.52 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...LAS 3D project \x {fffd}\x {fffd}\x 
+                                                  {fffd} III . A census of t...
+l.52 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[13
 
 ]
 Overfull \hbox (247.2941pt too wide) in paragraph at lines 52--52
@@ -1254,19 +1311,25 @@ Overfull \hbox (247.2941pt too wide) in paragraph at lines 52--52
 ernel.htm.
  []
 
-[13] (thesis.aux)
+[14] (thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19925 strings out of 493333
- 385358 string characters out of 3139191
- 761803 words of memory out of 3000000
- 23209 multiletter control sequences out of 15000+200000
+ 20649 strings out of 493333
+ 395748 string characters out of 3139191
+ 776510 words of memory out of 3000000
+ 23925 multiletter control sequences out of 15000+200000
  30139 words of font info for 86 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,10n,45p,10379b,1355s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,9n,45p,10379b,1355s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \ectt1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
 n\ec\dpi600\eccc1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
@@ -1291,9 +1354,9 @@ s/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (23 pages, 354000 bytes).
+Output written on thesis.pdf (24 pages, 359643 bytes).
 PDF statistics:
- 579 PDF objects out of 1000 (max. 8388607)
+ 589 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2139,17 +2139,19 @@
     <bcf:datasource type="file" datatype="bibtex">bib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="3">Cappellari2011</bcf:citekey>
-    <bcf:citekey order="4">Emsellem2011</bcf:citekey>
-    <bcf:citekey order="5">sauron9</bcf:citekey>
-    <bcf:citekey order="6">mo_bosch_white_2010</bcf:citekey>
-    <bcf:citekey order="7">Cortese2016</bcf:citekey>
-    <bcf:citekey order="8">Cortese2016</bcf:citekey>
+    <bcf:citekey order="1">Cappellari2011</bcf:citekey>
+    <bcf:citekey order="2">Emsellem2011</bcf:citekey>
+    <bcf:citekey order="3">Emsellem2011</bcf:citekey>
+    <bcf:citekey order="4">sauron9</bcf:citekey>
+    <bcf:citekey order="5">mo_bosch_white_2010</bcf:citekey>
+    <bcf:citekey order="6">Cortese2016</bcf:citekey>
+    <bcf:citekey order="7">Emsellem2011</bcf:citekey>
+    <bcf:citekey order="8">Emsellem2011</bcf:citekey>
     <bcf:citekey order="9">Cortese2016</bcf:citekey>
-    <bcf:citekey order="10">Emsellem2011</bcf:citekey>
-    <bcf:citekey order="11">Emsellem2011</bcf:citekey>
+    <bcf:citekey order="10">Cortese2016</bcf:citekey>
+    <bcf:citekey order="11">SDSS</bcf:citekey>
     <bcf:citekey order="12">Emsellem2011</bcf:citekey>
-    <bcf:citekey order="13">SDSS</bcf:citekey>
+    <bcf:citekey order="13">Emsellem2008</bcf:citekey>
     <bcf:citekey order="14">Cortese2016</bcf:citekey>
     <bcf:citekey order="15">Cappellari2011</bcf:citekey>
     <bcf:citekey order="16">Pedregosa2012</bcf:citekey>

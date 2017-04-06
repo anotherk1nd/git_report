@@ -1,25 +1,26 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
-[0] Config.pm:357> INFO - Logfile is 'thesis.blg'
-[189] biber-MSWIN64:303> INFO - === 
-[354] Biber.pm:359> INFO - Reading 'thesis.bcf'
-[530] Biber.pm:835> INFO - Found 9 citekeys in bib section 0
-[629] Biber.pm:3670> INFO - Processing section 0
-[715] Biber.pm:3840> INFO - Looking for bibtex format file 'bib.bib' for section 0
-[752] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[811] bibtex.pm:1292> INFO - Found BibTeX data source 'bib.bib'
-[848] Utils.pm:164> WARN - month field 'Jan' in entry 'sauron9' is not an integer - this will probably not sort properly.
-[900] Utils.pm:164> WARN - month field 'aug' in entry 'Cortese2016' is not an integer - this will probably not sort properly.
-[1076] Utils.pm:164> WARN - ISBN '1532-4435' in entry 'Pedregosa2012' is invalid - run biber with '--validate_datamodel' for details.
-[1212] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1213] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1213] Biber.pm:3499> INFO - Sorting list 'ynt/global/' of type 'entry' with scheme 'ynt' and locale 'en-US'
-[1213] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[1245] bbl.pm:608> INFO - Writing 'thesis.bbl' with encoding 'ascii'
-[1250] Utils.pm:164> WARN - The entry 'sauron9' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1255] Utils.pm:164> WARN - The entry 'Cappellari2011' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1259] Utils.pm:164> WARN - The entry 'Emsellem2011' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1264] Utils.pm:164> WARN - The entry 'Pedregosa2012' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1271] Utils.pm:164> WARN - The entry 'Krajnovic2013' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1277] Utils.pm:164> WARN - The entry 'sklearn' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1278] bbl.pm:712> INFO - Output to thesis.bbl
-[1281] Biber.pm:109> INFO - WARNINGS: 9
+[1] Config.pm:357> INFO - Logfile is 'thesis.blg'
+[84] biber-MSWIN64:303> INFO - === 
+[310] Biber.pm:359> INFO - Reading 'thesis.bcf'
+[477] Biber.pm:835> INFO - Found 10 citekeys in bib section 0
+[508] Biber.pm:3670> INFO - Processing section 0
+[666] Biber.pm:3840> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[682] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[746] bibtex.pm:1292> INFO - Found BibTeX data source 'bib.bib'
+[781] Utils.pm:164> WARN - month field 'Jan' in entry 'sauron9' is not an integer - this will probably not sort properly.
+[802] Utils.pm:164> WARN - month field 'aug' in entry 'Cortese2016' is not an integer - this will probably not sort properly.
+[1041] Utils.pm:164> WARN - ISBN '1532-4435' in entry 'Pedregosa2012' is invalid - run biber with '--validate_datamodel' for details.
+[1124] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1125] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1125] Biber.pm:3499> INFO - Sorting list 'ynt/global/' of type 'entry' with scheme 'ynt' and locale 'en-US'
+[1125] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[1153] bbl.pm:608> INFO - Writing 'thesis.bbl' with encoding 'ascii'
+[1158] Utils.pm:164> WARN - The entry 'sauron9' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1163] Utils.pm:164> WARN - The entry 'Emsellem2008' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1168] Utils.pm:164> WARN - The entry 'Cappellari2011' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1175] Utils.pm:164> WARN - The entry 'Emsellem2011' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1181] Utils.pm:164> WARN - The entry 'Pedregosa2012' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1189] Utils.pm:164> WARN - The entry 'Krajnovic2013' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1197] Utils.pm:164> WARN - The entry 'sklearn' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1198] bbl.pm:712> INFO - Output to thesis.bbl
+[1201] Biber.pm:109> INFO - WARNINGS: 10
