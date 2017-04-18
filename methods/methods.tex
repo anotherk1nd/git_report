@@ -29,8 +29,8 @@ Select the parameters that minimises the impurity
 \theta^{*} = \operatorname{argmin}_\theta G(Q, \theta)
 \end{equation}
 Recurse for subsets $Q_{left}(\theta^*)$ and $Q_{right}(\theta^*)$ until the maximum allowable depth is reached, $N_m < \min_{samples}$ or $N_m = 1$.
-\cite{sklearn}
 \end{quote}
+\cite{sklearn}
 The impurity measure used is the gini impurity:
 \begin{equation}
 H(X_m) = \sum_k p_{mk} (1 - p_{mk})

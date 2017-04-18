@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  18 APR 2017 13:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  18 APR 2017 14:25
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -53,13 +53,6 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks15
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2017/01/24 v2.0c Standard LaTeX package
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2017/01/24 v2.0c Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
 \@input{thesis.preamble.aux}
 \openout2 = `thesis.preamble.aux'.
 
@@ -239,11 +232,7 @@ Package: fontenc 2017/01/24 v2.0c Standard LaTeX package
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2017/01/24 v2.0c Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) (blocked.sty)
-(uhead.sty) (boxit.sty) (icthesis.sty)
-\c@definition=\count115
-\c@theorem=\count116
-)
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
 Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
 
@@ -262,7 +251,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count117
+\etb@tempcnta=\count115
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
@@ -279,7 +268,7 @@ Package etexcmds Info: Could not find \expanded.
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count118
+\lrq@indent=\count116
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -294,49 +283,49 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
 \@xs@message=\write3
-\integerpart=\count119
-\decimalpart=\count120
+\integerpart=\count117
+\decimalpart=\count118
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count121
-\c@listtotal=\count122
-\c@listcount=\count123
-\c@liststart=\count124
-\c@liststop=\count125
-\c@citecount=\count126
-\c@citetotal=\count127
-\c@multicitecount=\count128
-\c@multicitetotal=\count129
-\c@instcount=\count130
-\c@maxnames=\count131
-\c@minnames=\count132
-\c@maxitems=\count133
-\c@minitems=\count134
-\c@citecounter=\count135
-\c@savedcitecounter=\count136
-\c@uniquelist=\count137
-\c@uniquename=\count138
-\c@refsection=\count139
-\c@refsegment=\count140
-\c@maxextratitle=\count141
-\c@maxextratitleyear=\count142
-\c@maxextrayear=\count143
-\c@maxextraalpha=\count144
-\c@abbrvpenalty=\count145
-\c@highnamepenalty=\count146
-\c@lownamepenalty=\count147
-\c@maxparens=\count148
-\c@parenlevel=\count149
-\blx@tempcnta=\count150
-\blx@tempcntb=\count151
-\blx@tempcntc=\count152
-\blx@maxsection=\count153
-\blx@maxsegment@0=\count154
-\blx@notetype=\count155
-\blx@parenlevel@text=\count156
-\blx@parenlevel@foot=\count157
-\blx@sectionciteorder@0=\count158
+\c@tabx@nest=\count119
+\c@listtotal=\count120
+\c@listcount=\count121
+\c@liststart=\count122
+\c@liststop=\count123
+\c@citecount=\count124
+\c@citetotal=\count125
+\c@multicitecount=\count126
+\c@multicitetotal=\count127
+\c@instcount=\count128
+\c@maxnames=\count129
+\c@minnames=\count130
+\c@maxitems=\count131
+\c@minitems=\count132
+\c@citecounter=\count133
+\c@savedcitecounter=\count134
+\c@uniquelist=\count135
+\c@uniquename=\count136
+\c@refsection=\count137
+\c@refsegment=\count138
+\c@maxextratitle=\count139
+\c@maxextratitleyear=\count140
+\c@maxextrayear=\count141
+\c@maxextraalpha=\count142
+\c@abbrvpenalty=\count143
+\c@highnamepenalty=\count144
+\c@lownamepenalty=\count145
+\c@maxparens=\count146
+\c@parenlevel=\count147
+\blx@tempcnta=\count148
+\blx@tempcntb=\count149
+\blx@tempcntc=\count150
+\blx@maxsection=\count151
+\blx@maxsegment@0=\count152
+\blx@notetype=\count153
+\blx@parenlevel@text=\count154
+\blx@parenlevel@foot=\count155
+\blx@sectionciteorder@0=\count156
 \labelnumberwidth=\skip53
 \labelalphawidth=\skip54
 \biblabelsep=\skip55
@@ -347,9 +336,9 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip60
 \blx@bcfin=\read2
 \blx@bcfout=\write4
-\c@mincomprange=\count159
-\c@maxcomprange=\count160
-\c@mincompwidth=\count161
+\c@mincomprange=\count157
+\c@maxcomprange=\count158
+\c@mincompwidth=\count159
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -358,72 +347,72 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'alphabetic.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count162
-\c@savedafterword=\count163
-\c@annotator=\count164
-\c@savedannotator=\count165
-\c@author=\count166
-\c@savedauthor=\count167
-\c@bookauthor=\count168
-\c@savedbookauthor=\count169
-\c@commentator=\count170
-\c@savedcommentator=\count171
-\c@editor=\count172
-\c@savededitor=\count173
-\c@editora=\count174
-\c@savededitora=\count175
-\c@editorb=\count176
-\c@savededitorb=\count177
-\c@editorc=\count178
-\c@savededitorc=\count179
-\c@foreword=\count180
-\c@savedforeword=\count181
-\c@holder=\count182
-\c@savedholder=\count183
-\c@introduction=\count184
-\c@savedintroduction=\count185
-\c@namea=\count186
-\c@savednamea=\count187
-\c@nameb=\count188
-\c@savednameb=\count189
-\c@namec=\count190
-\c@savednamec=\count191
-\c@translator=\count192
-\c@savedtranslator=\count193
-\c@shortauthor=\count194
-\c@savedshortauthor=\count195
-\c@shorteditor=\count196
-\c@savedshorteditor=\count197
-\c@labelname=\count198
-\c@savedlabelname=\count199
-\c@institution=\count266
-\c@savedinstitution=\count267
-\c@lista=\count268
-\c@savedlista=\count269
-\c@listb=\count270
-\c@savedlistb=\count271
-\c@listc=\count272
-\c@savedlistc=\count273
-\c@listd=\count274
-\c@savedlistd=\count275
-\c@liste=\count276
-\c@savedliste=\count277
-\c@listf=\count278
-\c@savedlistf=\count279
-\c@location=\count280
-\c@savedlocation=\count281
-\c@organization=\count282
-\c@savedorganization=\count283
-\c@origlocation=\count284
-\c@savedoriglocation=\count285
-\c@origpublisher=\count286
-\c@savedorigpublisher=\count287
-\c@publisher=\count288
-\c@savedpublisher=\count289
-\c@language=\count290
-\c@savedlanguage=\count291
-\c@pageref=\count292
-\c@savedpageref=\count293
+\c@afterword=\count160
+\c@savedafterword=\count161
+\c@annotator=\count162
+\c@savedannotator=\count163
+\c@author=\count164
+\c@savedauthor=\count165
+\c@bookauthor=\count166
+\c@savedbookauthor=\count167
+\c@commentator=\count168
+\c@savedcommentator=\count169
+\c@editor=\count170
+\c@savededitor=\count171
+\c@editora=\count172
+\c@savededitora=\count173
+\c@editorb=\count174
+\c@savededitorb=\count175
+\c@editorc=\count176
+\c@savededitorc=\count177
+\c@foreword=\count178
+\c@savedforeword=\count179
+\c@holder=\count180
+\c@savedholder=\count181
+\c@introduction=\count182
+\c@savedintroduction=\count183
+\c@namea=\count184
+\c@savednamea=\count185
+\c@nameb=\count186
+\c@savednameb=\count187
+\c@namec=\count188
+\c@savednamec=\count189
+\c@translator=\count190
+\c@savedtranslator=\count191
+\c@shortauthor=\count192
+\c@savedshortauthor=\count193
+\c@shorteditor=\count194
+\c@savedshorteditor=\count195
+\c@labelname=\count196
+\c@savedlabelname=\count197
+\c@institution=\count198
+\c@savedinstitution=\count199
+\c@lista=\count266
+\c@savedlista=\count267
+\c@listb=\count268
+\c@savedlistb=\count269
+\c@listc=\count270
+\c@savedlistc=\count271
+\c@listd=\count272
+\c@savedlistd=\count273
+\c@liste=\count274
+\c@savedliste=\count275
+\c@listf=\count276
+\c@savedlistf=\count277
+\c@location=\count278
+\c@savedlocation=\count279
+\c@organization=\count280
+\c@savedorganization=\count281
+\c@origlocation=\count282
+\c@savedoriglocation=\count283
+\c@origpublisher=\count284
+\c@savedorigpublisher=\count285
+\c@publisher=\count286
+\c@savedpublisher=\count287
+\c@language=\count288
+\c@savedlanguage=\count289
+\c@pageref=\count290
+\c@savedpageref=\count291
 \shorthandwidth=\skip61
 \shortjournalwidth=\skip62
 \shortserieswidth=\skip63
@@ -441,13 +430,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
 File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count294
-\c@textcitetotal=\count295
-\c@textcitemaxnames=\count296
-\c@biburlnumpenalty=\count297
-\c@biburlucpenalty=\count298
-\c@biburllcpenalty=\count299
-\c@smartand=\count300
+\c@textcitecount=\count292
+\c@textcitetotal=\count293
+\c@textcitemaxnames=\count294
+\c@biburlnumpenalty=\count295
+\c@biburlucpenalty=\count296
+\c@biburllcpenalty=\count297
+\c@smartand=\count298
 )
 Package biblatex Info: Trying to load bibliography style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.bbx' found.
@@ -459,8 +448,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count301
-\c@bbx:relatedtotal=\count302
+\c@bbx:relatedcount=\count299
+\c@bbx:relatedtotal=\count300
 ))
 Package biblatex Info: Trying to load citation style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.cbx' found.
@@ -502,24 +491,24 @@ L3 Module: l3tl 2017/02/06 v6842 L3 Token lists
 L3 Module: l3str 2017/01/01 v6809 L3 Strings
 L3 Module: l3seq 2017/02/06 v6842 L3 Sequences and stacks
 L3 Module: l3int 2016/12/28 v6805 L3 Integers
-\c_max_int=\count303
-\l_tmpa_int=\count304
-\l_tmpb_int=\count305
-\g_tmpa_int=\count306
-\g_tmpb_int=\count307
+\c_max_int=\count301
+\l_tmpa_int=\count302
+\l_tmpb_int=\count303
+\g_tmpa_int=\count304
+\g_tmpb_int=\count305
 L3 Module: l3quark 2016/12/28 v6805 L3 Quarks
 L3 Module: l3prg 2017/01/01 v6811 L3 Control structures
-\g__prg_map_int=\count308
+\g__prg_map_int=\count306
 L3 Module: l3clist 2017/02/06 v6842 L3 Comma separated lists
 L3 Module: l3token 2016/12/28 v6805 L3 Experimental token manipulation
 L3 Module: l3prop 2016/12/28 v6805 L3 Property lists
 L3 Module: l3msg 2016/12/28 v6805 L3 Messages
 L3 Module: l3file 2016/12/28 v6805 L3 File and I/O operations
-\l_iow_line_count_int=\count309
-\l__iow_target_count_int=\count310
-\l__iow_current_line_int=\count311
-\l__iow_current_word_int=\count312
-\l__iow_current_indentation_int=\count313
+\l_iow_line_count_int=\count307
+\l__iow_target_count_int=\count308
+\l__iow_current_line_int=\count309
+\l__iow_current_word_int=\count310
+\l__iow_current_indentation_int=\count311
 L3 Module: l3skip 2017/01/01 v6809 L3 Dimensions and skips
 \c_zero_dim=\dimen144
 \c_max_dim=\dimen145
@@ -540,32 +529,32 @@ L3 Module: l3skip 2017/01/01 v6809 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
 L3 Module: l3keys 2017/01/01 v6811 L3 Key-value interfaces
-\l_keys_choice_int=\count314
+\l_keys_choice_int=\count312
 L3 Module: l3fp 2016/12/28 v6805 L3 Floating points
-\c__fp_leading_shift_int=\count315
-\c__fp_middle_shift_int=\count316
-\c__fp_trailing_shift_int=\count317
-\c__fp_big_leading_shift_int=\count318
-\c__fp_big_middle_shift_int=\count319
-\c__fp_big_trailing_shift_int=\count320
-\c__fp_Bigg_leading_shift_int=\count321
-\c__fp_Bigg_middle_shift_int=\count322
-\c__fp_Bigg_trailing_shift_int=\count323
-\c__fp_rand_size_int=\count324
-\c__fp_rand_four_int=\count325
-\c__fp_rand_eight_int=\count326
+\c__fp_leading_shift_int=\count313
+\c__fp_middle_shift_int=\count314
+\c__fp_trailing_shift_int=\count315
+\c__fp_big_leading_shift_int=\count316
+\c__fp_big_middle_shift_int=\count317
+\c__fp_big_trailing_shift_int=\count318
+\c__fp_Bigg_leading_shift_int=\count319
+\c__fp_Bigg_middle_shift_int=\count320
+\c__fp_Bigg_trailing_shift_int=\count321
+\c__fp_rand_size_int=\count322
+\c__fp_rand_four_int=\count323
+\c__fp_rand_eight_int=\count324
 L3 Module: l3sort 2017/02/07 v6847 L3 Sorting functions
-\l__sort_length_int=\count327
-\l__sort_min_int=\count328
-\l__sort_top_int=\count329
-\l__sort_max_int=\count330
-\l__sort_true_max_int=\count331
-\l__sort_block_int=\count332
-\l__sort_begin_int=\count333
-\l__sort_end_int=\count334
-\l__sort_A_int=\count335
-\l__sort_B_int=\count336
-\l__sort_C_int=\count337
+\l__sort_length_int=\count325
+\l__sort_min_int=\count326
+\l__sort_top_int=\count327
+\l__sort_max_int=\count328
+\l__sort_true_max_int=\count329
+\l__sort_block_int=\count330
+\l__sort_begin_int=\count331
+\l__sort_end_int=\count332
+\l__sort_A_int=\count333
+\l__sort_B_int=\count334
+\l__sort_C_int=\count335
 L3 Module: l3box 2016/12/28 v6805 L3 Experimental boxes
 \c_empty_box=\box33
 \l_tmpa_box=\box34
@@ -615,16 +604,16 @@ L3 Module: l3luatex 2016/12/28 v6805 L3 Experimental LuaTeX-specific functions
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
 File: l3pdfmode.def 2016/12/28 v6805 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count338
+\l__driver_color_stack_int=\count336
 \l__driver_tmp_box=\box48
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
 Package: xparse 2017/02/10 v6878 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count339
-\g__xparse_grabber_int=\count340
-\l__xparse_m_args_int=\count341
-\l__xparse_mandatory_args_int=\count342
-\l__xparse_v_nesting_int=\count343
+\l__xparse_current_arg_int=\count337
+\g__xparse_grabber_int=\count338
+\l__xparse_m_args_int=\count339
+\l__xparse_mandatory_args_int=\count340
+\l__xparse_v_nesting_int=\count341
 )
 Package: siunitx 2017/02/19 v2.7d A comprehensive (SI) units package
 
@@ -633,27 +622,27 @@ Package: l3keys2e 2017/02/10 v6878 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box49
 \l__siunitx_tmp_dim=\dimen175
-\l__siunitx_tmp_int=\count344
-\l__siunitx_number_mantissa_length_int=\count345
-\l__siunitx_number_uncert_length_int=\count346
-\l__siunitx_round_int=\count347
-\l__siunitx_process_decimal_int=\count348
-\l__siunitx_process_uncertainty_int=\count349
-\l__siunitx_process_fixed_int=\count350
-\l__siunitx_process_integer_min_int=\count351
-\l__siunitx_process_precision_int=\count352
-\l__siunitx_group_min_int=\count353
+\l__siunitx_tmp_int=\count342
+\l__siunitx_number_mantissa_length_int=\count343
+\l__siunitx_number_uncert_length_int=\count344
+\l__siunitx_round_int=\count345
+\l__siunitx_process_decimal_int=\count346
+\l__siunitx_process_uncertainty_int=\count347
+\l__siunitx_process_fixed_int=\count348
+\l__siunitx_process_integer_min_int=\count349
+\l__siunitx_process_precision_int=\count350
+\l__siunitx_group_min_int=\count351
 \l__siunitx_angle_marker_box=\box50
 \l__siunitx_angle_unit_box=\box51
 \l__siunitx_angle_marker_dim=\dimen176
 \l__siunitx_angle_unit_dim=\dimen177
-\l__siunitx_unit_int=\count354
-\l__siunitx_unit_denominator_int=\count355
-\l__siunitx_unit_numerator_int=\count356
-\l__siunitx_unit_prefix_int=\count357
-\l__siunitx_unit_prefix_base_int=\count358
-\l__siunitx_unit_prefix_gram_int=\count359
-\l__siunitx_number_product_int=\count360
+\l__siunitx_unit_int=\count352
+\l__siunitx_unit_denominator_int=\count353
+\l__siunitx_unit_numerator_int=\count354
+\l__siunitx_unit_prefix_int=\count355
+\l__siunitx_unit_prefix_base_int=\count356
+\l__siunitx_unit_prefix_gram_int=\count357
+\l__siunitx_number_product_int=\count358
 \c__siunitx_one_fill_skip=\skip74
 \l__siunitx_table_unit_align_skip=\skip75
 \l__siunitx_table_exponent_dim=\dimen178
@@ -803,7 +792,11 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
+)) (blocked.sty)
+(uhead.sty) (boxit.sty) (icthesis.sty)
+\c@definition=\count359
+\c@theorem=\count360
+)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -812,44 +805,21 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 \@quotelevel=\count361
 \@quotereset=\count362
- (thesis.aux
-! Undefined control sequence.
-l.3 \abx@aux@sortnamekeyscheme
-                              {global}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 \abx@aux@sortnamekeyscheme{g
-                                lobal}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
+ (thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -920,15 +890,11 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = `thesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-
-
-Package biblatex Warning: File 'thesis.bbl' is wrong format version - expected 
-2.8.
-
 Package biblatex Info: ... file 'thesis.bbl' found.
+
 (thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 20.
-Package biblatex Info: Reference segment=0 on input line 20.
+Package biblatex Info: Reference section=0 on input line 11.
+Package biblatex Info: Reference segment=0 on input line 11.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\translator\dicts\translator-basi
 c-dictionary\translator-basic-dictionary-English.dict"
@@ -938,28 +904,29 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/02/19 v2.7d siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count369
-LaTeX Font Info:    Try loading font information for U+msa on input line 20.
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 20.
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count370
- [1
 
-
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \vbox (57.1399pt too high) detected at line 30
+Overfull \vbox (57.1399pt too high) detected at line 21
  []
 
-[2] (abstract/abstract.tex) [1
+[1
 
-] [2
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+
+]
+(abstract/abstract.tex) [1] [2
 
 ] (thesis.toc [3
 
@@ -974,10 +941,10 @@ Overfull \vbox (57.1399pt too high) detected at line 30
  [5
 
 
-]
-[6
+] [6
 
-] (thesis.lof)
+]
+(thesis.lof)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
@@ -991,55 +958,17 @@ Chapter 1.
 
 ]
 Chapter 2.
-
-LaTeX Warning: Citation 'Cappellari2011' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Emsellem2011' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'Emsellem2011' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'sauron9' on page 2 undefined on input line 8.
-
 Missing character: There is no Ï in font cmr12!
 Missing character: There is no ƒ in font cmr12!
-
-LaTeX Warning: Citation 'mo_bosch_white_2010' on page 2 undefined on input line
- 13.
-
-
-LaTeX Warning: Citation 'Cortese2016' on page 2 undefined on input line 13.
-
-
-Overfull \hbox (75.70021pt too wide) in paragraph at lines 11--14
-\T1/cmr/m/n/12 Fur-ther-more, $\OML/cmm/m/it/12 []$ \T1/cmr/m/n/12 'can quan-t
-ify galaxy mor-phol-ogy via the kine-matic prop-er-ties of galaxies[[]][p14]',
- []
-
 [2
 
-]
-
-LaTeX Warning: Citation 'Emsellem2011' on page 3 undefined on input line 21.
-
-
-LaTeX Warning: Citation 'Emsellem2011' on page 3 undefined on input line 21.
-
-<images/fastslowemsellem2008.png, id=54, 338.01282pt x 279.29344pt>
+] <images/fastslowemsellem2008.png, id=54, 338.01282pt x 279.29344pt>
 File: images/fastslowemsellem2008.png Graphic file (type png)
 
 <use images/fastslowemsellem2008.png>
 Package pdftex.def Info: images/fastslowemsellem2008.png used on input line 23.
 
 (pdftex.def)             Requested size: 338.01198pt x 279.29276pt.
-
-
-LaTeX Warning: Citation 'Cortese2016' on page 3 undefined on input line 29.
-
-
-LaTeX Warning: Citation 'Cortese2016' on page 3 undefined on input line 29.
 
 <images/morphology_sersic_cortese2016.png, id=55, 393.72093pt x 288.3272pt>
 File: images/morphology_sersic_cortese2016.png Graphic file (type png)
@@ -1052,41 +981,24 @@ Package pdftex.def Info: images/morphology_sersic_cortese2016.png used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation 'SDSS' on page 3 undefined on input line 36.
-
-
-LaTeX Warning: Citation 'Emsellem2011' on page 3 undefined on input line 37.
-
 Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
 Missing character: There is no ’ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no ˆ in font cmr12!
 Missing character: There is no ’ in font cmr12!
-[3 <./images/fastslowemsellem2008.png>]
-
-LaTeX Warning: Citation 'Emsellem2008' on page 4 undefined on input line 44.
-
-[4 <./images/morphology_sersic_cortese2016.png>]
-
-LaTeX Warning: Citation 'Cortese2016' on page 5 undefined on input line 59.
-
-[5]
-
-LaTeX Warning: Citation 'Cappellari2011' on page 6 undefined on input line 72.
+[3 <./images/fastslowemsellem2008.png>] [4 <./images/morphology_sersic_cortese2
+016.png>] [5]
+Overfull \hbox (39.80681pt too wide) in paragraph at lines 71--75
+\T1/cmr/m/n/12 This sur-vey com-bined Ac-cord-ing to [Cap+11] this sur-vey fo-c
+used on a 'volume-limited ($[]\OML/cmm/m/it/12 Mpc[]$\T1/cmr/m/n/12 )
+ []
 
 ) (methods/methods.tex [6]
 Chapter 3.
-
-LaTeX Warning: Citation 'Pedregosa2012' on page 7 undefined on input line 3.
-
 [7
 
 ]
-
-LaTeX Warning: Citation 'sklearn' on page 8 undefined on input line 32.
-
 
 ! LaTeX Error: \begin{document} ended by \end{quote}.
 
@@ -1094,7 +1006,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 \end{quote}
+l.32 \end{quote}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1103,12 +1015,9 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.33 \end{quote}
+l.32 \end{quote}
                 
 Things are pretty mixed up, but I think the worst is over.
-
-
-LaTeX Warning: Citation 'sklearn' on page 8 undefined on input line 38.
 
 
 Underfull \vbox (badness 5217) has occurred while \output is active []
@@ -1140,73 +1049,332 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (132.93465pt too high) has occurred while \output is active []
 
 
-[10]
-
-LaTeX Warning: Citation 'Krajnovic2013' on page 11 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'Emsellem2011' on page 11 undefined on input line 70.
-
-) (results/results.tex [11]
+[10]) (results/results.tex [11]
 Chapter 4.
 ) (conclusion/conclusion.tex [12
 
 ]
 Chapter 5.
+) [13
+
+]
+! Undefined control sequence.
+<to be read again> \edef \blx@tempa {401\x 
+                                           {FFFD}\x {FFFD}\x {FFFD}417}
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<to be read again> ... \blx@tempa {401\x {FFFD}\x 
+                                                  {FFFD}\x {FFFD}417}
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<to be read again> ...pa {401\x {FFFD}\x {FFFD}\x 
+                                                  {FFFD}417}
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1 %%%\x
+          {FFF%}\x {FFF%}\x {FFF%}%%%
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1 %%%\x {FFF%}\x
+                   {FFF%}\x {FFF%}%%%
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1 %%%\x {FFF%}\x {FFF%}\x
+                            {FFF%}%%%
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<to be read again> \edef \blx@tempa {401\x 
+                                           {FFFD}\x {FFFD}\x {FFFD}417}
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<to be read again> ... \blx@tempa {401\x {FFFD}\x 
+                                                  {FFFD}\x {FFFD}417}
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<to be read again> ...pa {401\x {FFFD}\x {FFFD}\x 
+                                                  {FFFD}417}
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1 %%%\x
+          {FFF%}\x {FFF%}\x {FFF%}%%%
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1 %%%\x {FFF%}\x
+                   {FFF%}\x {FFF%}%%%
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1 %%%\x {FFF%}\x {FFF%}\x
+                            {FFF%}%%%
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> 401\x 
+                 {fffd}\x {fffd}\x {fffd}417
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> 401\x {fffd}\x 
+                          {fffd}\x {fffd}417
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> 401\x {fffd}\x {fffd}\x 
+                                   {fffd}417
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 41.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
+! Undefined control sequence.
+<argument> {The ATLAS 3D project \x 
+                                    {fffd}\x {fffd}\x {fffd} III . A census ...
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Empty bibliography on input line 50.
+! Undefined control sequence.
+<argument> {The ATLAS 3D project \x {fffd}\x 
+                                             {fffd}\x {fffd} III . A census ...
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-[13
+! Undefined control sequence.
+<argument> ...LAS 3D project \x {fffd}\x {fffd}\x 
+                                                  {fffd} III . A census of t...
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-] (thesis.aux)
+! Undefined control sequence.
+<argument> {The ATLAS 3D project \x 
+                                    {fffd}\x {fffd}\x {fffd} I . A volume-li...
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: There were undefined references.
+! Undefined control sequence.
+<argument> {The ATLAS 3D project \x {fffd}\x 
+                                             {fffd}\x {fffd} I . A volume-li...
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+<argument> ...LAS 3D project \x {fffd}\x {fffd}\x 
+                                                  {fffd} I . A volume-limite...
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+! Undefined control sequence.
+<argument> {The ATLAS 3D project \x 
+                                    {fffd}\x {fffd}\x {fffd} III . A census ...
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+<argument> {The ATLAS 3D project \x {fffd}\x 
+                                             {fffd}\x {fffd} III . A census ...
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                thesis
-(biblatex)                and rerun LaTeX afterwards.
+! Undefined control sequence.
+<argument> ...LAS 3D project \x {fffd}\x {fffd}\x 
+                                                  {fffd} III . A census of t...
+l.43 \end
+         {document}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+[14
+
+]
+Overfull \hbox (247.2941pt too wide) in paragraph at lines 43--43
+[]\T1/cmr/m/n/12 Unknown. \T1/cmr/m/it/12 Scope of SDSS Sur-vey\T1/cmr/m/n/12 .
+ http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/k
+ernel.htm.
+ []
+
+[15] (thesis.aux)
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20637 strings out of 493333
- 395019 string characters out of 3139191
- 777168 words of memory out of 3000000
- 23915 multiletter control sequences out of 15000+200000
- 28467 words of font info for 83 fonts, out of 3000000 for 9000
+ 20672 strings out of 493333
+ 395958 string characters out of 3139191
+ 777532 words of memory out of 3000000
+ 23948 multiletter control sequences out of 15000+200000
+ 30139 words of font info for 86 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,13n,35p,10379b,1214s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,13n,45p,10405b,1355s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecbx1000.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecsl1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\Joshua\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Joshua\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\
-Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk>
+\ectt1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\eccc1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Joshua\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk> <C:\Users\Joshua\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\
+Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk>
  <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-cbx2074.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecrm1728.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecrm1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (23 pages, 328352 bytes).
+cbx1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecbx2488.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Joshua\AppData\Local\MiK
+TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Joshua\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on thesis.pdf (25 pages, 361704 bytes).
 PDF statistics:
- 487 PDF objects out of 1000 (max. 8388607)
+ 590 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
