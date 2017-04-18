@@ -35,13 +35,38 @@ The impurity measure used is the gini impurity:
 \begin{equation}
 H(X_m) = \sum_k p_{mk} (1 - p_{mk})
 \end{equation}
-The backend of the SKlearn modules were however not evaluated directly but implemented na\"{i}vely. SKLearn uses the CART(Classification And Regression Tree) method which builds on the ID3 algorithm originally formulated 1986(PROB DON'T NEED PRECEDING SENTENCE, DOESN'T CONTRIBUTE MUCH). The parameters were initialised to their defaults as described in the documentation\cite{sklearn}. Using the modules themselves required elementary use of python to pass the module arrays of necessary values. Implementation proceeded in 2 stages once the data had been suitably formatted. The data was arbitrarily split into 2 groups, a training and a test set, based solely on their position within the results. NEED TO CHECK THEY HAD NO ORDER. For classification, the training set was passed to the module as a list with each item holding the feature value (i.e. S\'{e}rsic index) or a list of feature values if more than one feature used, and target variable (i.e. fast/slow rotator classification, spin parameter value). A function was output that incorporated the learned rules which was then applied to the test data set resulting in an array of predicted values that could be measured against the known values.\
+This process aims to form 2 child sets that are more statistically correlated with each other than the parent. The backend of the SKlearn modules were however not evaluated directly but implemented na\"{i}vely.  The parameters were initialised to their defaults as described in the documentation\cite{sklearn}. Using the modules themselves required elementary use of python to pass the module arrays of necessary values. Implementation proceeded in 2 stages once the data had been suitably formatted. The data was arbitrarily split into 2 groups, a training and a test set, based solely on their position within the results: they were ordered according to their LEDA classification and occupied different locations of the sky, and so should not have any bias. For classification, the training set was passed to the module as a list with each item holding the feature value (i.e. S\'{e}rsic index) or a list of feature values if more than one feature used, and target variable (i.e. fast/slow rotator classification, spin parameter value). A function was output that incorporated the learned rules which was then applied to the test data set resulting in an array of predicted values that could be measured against the known values.\
 Initially, the algorithm was run as a classification problem due to the more simple analysis of success and errors. This is because it allowed the success to be evaluated in a more elementary fashion, without recourse to analysing error distributions.
 Decision tree and random forest methods were then applied and the parameters adjusted manually to achieve optimal results. The parameters included:
 \subsection{Parameters}
 SKLearn allows several parameters to be adjusted manually in order to maximise the efficiency of the models, and these are particular to each. For decision trees, these are as follows:
+\begin{tabu} to \textwidth { | c | l | p{7cm} | }
+	\hline
+	Parameter & Options & Description \\
+	\hline
+	Criterion  & Gini or Entropy  & Uses the gini impurity as outlined above or entropy for information gain. The gini impurity default was used \\
+	\hline
+	Splitter & Best  or Random & Chooses the best split or the best random split to make at each node based on the criterion. \\
+	\hline
+	max\textunderscore features & int & Considers the maximum number of features of the dataset to consider when recursing for the best split. \\
+	\hline
+	max\textunderscore depth & int or None & The maximum depth of the tree, i.e. how many splits the tree makes. The default of None will recurse until all leaves are pure, i.e. contain 1 class, or contain less than the min\textunderscore samples\textunderscore split.\\
+	\hline
+	min\textunderscore samples\textunderscore split & int,float (default=2) & The minimum number of samples required to be at a leaf node, where the leaf node represents the split into classifications.\\
+	\hline
+	max\textunderscore leaf\textunderscore nodes & int, none (default=None) & The maximum number of leaf nodes allowed, with the tree choosing nodes which best minimises the gini impurity.\\
+	\hline
+	min\textunderscore weight\textunderscore fraction\textunderscore leaf & float or None & The minimum weighted fraction of the sum total of weights (of all the input samples) required to be at a leaf node. Samples have equal weight when sample\textunderscore weight is not provided. No weights were supplied since and so were equally weighted.\\ %COULD USE THIS BASED ON ERRORS??\\
+	\hline
+	min\textunderscore impurity\textunderscore split & float (default=1e-7) & Threshold for early stopping in tree growth. A node will split if its impurity is above the threshold, otherwise it splitting will cease and the node forms a leaf.\\
+	\hline
+	presort & bool, (default=False) & Option to possibly speed up training process, not used here.\\
+	\hline
+\end{tabu}
+
+
 \section{Data \& Formatting}
 \subsection{ATLAS\textsuperscript{3D}}
-Spectroscopic data (namely S\'ersic index of the single fit and bulge component, n and $n_{b}$ respectively,  and D/T, the Disk-to-Total light ratio) was extracted from \cite{Krajnovic2013} whilst the kinematic parameters $\lambda_{Re}$, $\lambda_{Re/2}$ and the Fast/Slow rotation classification were extracted from \cite{Emsellem2011}.
+Spectroscopic data (namely S\'ersic index of the single fit and bulge component, n and $n_{b}$ respectively,  and D/T, the Disk-to-Total light ratio) was extracted from \cite{Krajnovic2013} whilst the kinematic parameters $\lambda_{Re}$, $\lambda_{Re/2}$ and the Fast/Slow rotation classification were extracted from \cite{Emsellem2011}. The data from both sources was combined using a pandas dataframe.
 The classifier was first trained using the spin parameter $\lambda_{Re}$ with the FS rotation classification as target variable as a test measure, which successfully predicted 100\% of the test set. 
 The algorithm was then trained using n and D/T individually and simultaneously.

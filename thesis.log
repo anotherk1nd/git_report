@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  3 APR 2017 14:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  18 APR 2017 13:51
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -192,9 +192,6 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tabu\tabu.sty"
-Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
-
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen131
@@ -203,6 +200,9 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \extratabsurround=\skip50
 \backup@length=\skip51
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\tabu\tabu.sty"
+Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box28
@@ -232,7 +232,14 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@hleads=\box31
 \tabu@vleads=\box32
 \tabu@cellskip=\skip52
-) (blocked.sty)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/01/24 v2.0c Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/01/24 v2.0c Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (blocked.sty)
 (uhead.sty) (boxit.sty) (icthesis.sty)
 \c@definition=\count115
 \c@theorem=\count116
@@ -805,7 +812,29 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 \@quotelevel=\count361
 \@quotereset=\count362
- (thesis.aux)
+ (thesis.aux
+! Undefined control sequence.
+l.3 \abx@aux@sortnamekeyscheme
+                              {global}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \abx@aux@sortnamekeyscheme{g
+                                lobal}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -820,6 +849,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -890,8 +920,12 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = `thesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'thesis.bbl' found.
 
+
+Package biblatex Warning: File 'thesis.bbl' is wrong format version - expected 
+2.8.
+
+Package biblatex Info: ... file 'thesis.bbl' found.
 (thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 20.
 Package biblatex Info: Reference segment=0 on input line 20.
@@ -915,18 +949,17 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count370
+ [1
 
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Overfull \vbox (57.1399pt too high) detected at line 30
  []
 
-[1
+[2] (abstract/abstract.tex) [1
 
-
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
-
-]
-(abstract/abstract.tex) [1] [2
+] [2
 
 ] (thesis.toc [3
 
@@ -941,10 +974,10 @@ Overfull \vbox (57.1399pt too high) detected at line 30
  [5
 
 
-] [6
-
 ]
-(thesis.lof)
+[6
+
+] (thesis.lof)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
@@ -958,17 +991,55 @@ Chapter 1.
 
 ]
 Chapter 2.
+
+LaTeX Warning: Citation 'Cappellari2011' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Emsellem2011' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Emsellem2011' on page 2 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'sauron9' on page 2 undefined on input line 8.
+
 Missing character: There is no Ï in font cmr12!
 Missing character: There is no ƒ in font cmr12!
+
+LaTeX Warning: Citation 'mo_bosch_white_2010' on page 2 undefined on input line
+ 13.
+
+
+LaTeX Warning: Citation 'Cortese2016' on page 2 undefined on input line 13.
+
+
+Overfull \hbox (75.70021pt too wide) in paragraph at lines 11--14
+\T1/cmr/m/n/12 Fur-ther-more, $\OML/cmm/m/it/12 []$ \T1/cmr/m/n/12 'can quan-t
+ify galaxy mor-phol-ogy via the kine-matic prop-er-ties of galaxies[[]][p14]',
+ []
+
 [2
 
-] <images/fastslowemsellem2008.png, id=54, 338.01282pt x 279.29344pt>
+]
+
+LaTeX Warning: Citation 'Emsellem2011' on page 3 undefined on input line 21.
+
+
+LaTeX Warning: Citation 'Emsellem2011' on page 3 undefined on input line 21.
+
+<images/fastslowemsellem2008.png, id=54, 338.01282pt x 279.29344pt>
 File: images/fastslowemsellem2008.png Graphic file (type png)
 
 <use images/fastslowemsellem2008.png>
 Package pdftex.def Info: images/fastslowemsellem2008.png used on input line 23.
 
 (pdftex.def)             Requested size: 338.01198pt x 279.29276pt.
+
+
+LaTeX Warning: Citation 'Cortese2016' on page 3 undefined on input line 29.
+
+
+LaTeX Warning: Citation 'Cortese2016' on page 3 undefined on input line 29.
 
 <images/morphology_sersic_cortese2016.png, id=55, 393.72093pt x 288.3272pt>
 File: images/morphology_sersic_cortese2016.png Graphic file (type png)
@@ -982,21 +1053,40 @@ Package pdftex.def Info: images/morphology_sersic_cortese2016.png used on input
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fig:morphologysersic' on page 3 undefined on input li
-ne 35.
+LaTeX Warning: Citation 'SDSS' on page 3 undefined on input line 36.
 
-[3 <./images/fastslowemsellem2008.png>] [4 <./images/morphology_sersic_cortese2
-016.png>] [5]
-Overfull \hbox (39.80681pt too wide) in paragraph at lines 71--75
-\T1/cmr/m/n/12 This sur-vey com-bined Ac-cord-ing to [Cap+11] this sur-vey fo-c
-used on a 'volume-limited ($[]\OML/cmm/m/it/12 Mpc[]$\T1/cmr/m/n/12 )
- []
+
+LaTeX Warning: Citation 'Emsellem2011' on page 3 undefined on input line 37.
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no ’ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no ’ in font cmr12!
+[3 <./images/fastslowemsellem2008.png>]
+
+LaTeX Warning: Citation 'Emsellem2008' on page 4 undefined on input line 44.
+
+[4 <./images/morphology_sersic_cortese2016.png>]
+
+LaTeX Warning: Citation 'Cortese2016' on page 5 undefined on input line 59.
+
+[5]
+
+LaTeX Warning: Citation 'Cappellari2011' on page 6 undefined on input line 72.
 
 ) (methods/methods.tex [6]
 Chapter 3.
+
+LaTeX Warning: Citation 'Pedregosa2012' on page 7 undefined on input line 3.
+
 [7
 
 ]
+
+LaTeX Warning: Citation 'sklearn' on page 8 undefined on input line 32.
+
 
 ! LaTeX Error: \begin{document} ended by \end{quote}.
 
@@ -1018,345 +1108,105 @@ l.33 \end{quote}
 Things are pretty mixed up, but I think the worst is over.
 
 
+LaTeX Warning: Citation 'sklearn' on page 8 undefined on input line 38.
+
+
 Underfull \vbox (badness 5217) has occurred while \output is active []
 
- [8])
-(results/results.tex
+ [8]
+Underfull \hbox (badness 1546) in paragraph at lines 65--65
+[]\T1/cmr/m/n/12 Uses the gini im-pu-rity as out-lined
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 65--65
+[]\T1/cmr/m/n/12 The max-i-mum depth of the tree,
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 65--65
+\T1/cmr/m/n/12 til all leaves are pure, i.e. con-
+ []
+
+
+Overfull \hbox (20.31537pt too wide) in paragraph at lines 42--66
+[] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
+Overfull \vbox (132.93465pt too high) has occurred while \output is active []
+
+
 [10]
+
+LaTeX Warning: Citation 'Krajnovic2013' on page 11 undefined on input line 70.
+
+
+LaTeX Warning: Citation 'Emsellem2011' on page 11 undefined on input line 70.
+
+) (results/results.tex [11]
 Chapter 4.
-) (conclusion/conclusion.tex [11
+) (conclusion/conclusion.tex [12
 
 ]
 Chapter 5.
-) [12
-
-]
-! Undefined control sequence.
-<to be read again> \edef \blx@tempa {401\x 
-                                           {FFFD}\x {FFFD}\x {FFFD}417}
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<to be read again> ... \blx@tempa {401\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}417}
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<to be read again> ...pa {401\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}417}
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.1 %%%\x
-          {FFF%}\x {FFF%}\x {FFF%}%%%
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.1 %%%\x {FFF%}\x
-                   {FFF%}\x {FFF%}%%%
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.1 %%%\x {FFF%}\x {FFF%}\x
-                            {FFF%}%%%
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<to be read again> \edef \blx@tempa {401\x 
-                                           {FFFD}\x {FFFD}\x {FFFD}417}
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<to be read again> ... \blx@tempa {401\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}417}
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<to be read again> ...pa {401\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}417}
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.1 %%%\x
-          {FFF%}\x {FFF%}\x {FFF%}%%%
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.1 %%%\x {FFF%}\x
-                   {FFF%}\x {FFF%}%%%
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.1 %%%\x {FFF%}\x {FFF%}\x
-                            {FFF%}%%%
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> 401\x 
-                 {fffd}\x {fffd}\x {fffd}417
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> 401\x {fffd}\x 
-                          {fffd}\x {fffd}417
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> 401\x {fffd}\x {fffd}\x 
-                                   {fffd}417
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 50.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-! Undefined control sequence.
-<argument> {The ATLAS 3D project \x 
-                                    {fffd}\x {fffd}\x {fffd} III . A census ...
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-<argument> {The ATLAS 3D project \x {fffd}\x 
-                                             {fffd}\x {fffd} III . A census ...
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...LAS 3D project \x {fffd}\x {fffd}\x 
-                                                  {fffd} III . A census of t...
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> {The ATLAS 3D project \x 
-                                    {fffd}\x {fffd}\x {fffd} I . A volume-li...
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> {The ATLAS 3D project \x {fffd}\x 
-                                             {fffd}\x {fffd} I . A volume-li...
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...LAS 3D project \x {fffd}\x {fffd}\x 
-                                                  {fffd} I . A volume-limite...
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> {The ATLAS 3D project \x 
-                                    {fffd}\x {fffd}\x {fffd} III . A census ...
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> {The ATLAS 3D project \x {fffd}\x 
-                                             {fffd}\x {fffd} III . A census ...
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...LAS 3D project \x {fffd}\x {fffd}\x 
-                                                  {fffd} III . A census of t...
-l.52 \end
-         {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Empty bibliography on input line 50.
 
 [13
 
-]
-Overfull \hbox (247.2941pt too wide) in paragraph at lines 52--52
-[]\T1/cmr/m/n/12 Unknown. \T1/cmr/m/it/12 Scope of SDSS Sur-vey\T1/cmr/m/n/12 .
- http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/k
-ernel.htm.
- []
-
-[14] (thesis.aux)
+] (thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                thesis
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20649 strings out of 493333
- 395748 string characters out of 3139191
- 776510 words of memory out of 3000000
- 23925 multiletter control sequences out of 15000+200000
- 30139 words of font info for 86 fonts, out of 3000000 for 9000
+ 20637 strings out of 493333
+ 395019 string characters out of 3139191
+ 777168 words of memory out of 3000000
+ 23915 multiletter control sequences out of 15000+200000
+ 28467 words of font info for 83 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,9n,45p,10379b,1355s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,13n,35p,10379b,1214s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ectt1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\eccc1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Joshua\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk> <C:\Users\Joshua\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\
-Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk>
+\ecbx1000.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecsl1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\Joshua\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Joshua\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\
+Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk>
  <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-cbx1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecbx2488.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Joshua\AppData\Local\MiK
-TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Joshua\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (24 pages, 359643 bytes).
+cbx2074.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecrm1728.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\ecrm1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/symbols/msam10.pfb>
+Output written on thesis.pdf (23 pages, 328352 bytes).
 PDF statistics:
- 589 PDF objects out of 1000 (max. 8388607)
+ 487 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
