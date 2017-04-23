@@ -2159,6 +2159,8 @@
     <bcf:citekey order="20">sklearn</bcf:citekey>
     <bcf:citekey order="21">Krajnovic2013</bcf:citekey>
     <bcf:citekey order="22">Emsellem2011</bcf:citekey>
+    <bcf:citekey order="23">simmons_2016</bcf:citekey>
+    <bcf:citekey order="24">Krajnovic2013</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="ynt/global/" type="entry" sortscheme="ynt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

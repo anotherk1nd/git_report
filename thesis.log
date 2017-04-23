@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  23 APR 2017 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  23 APR 2017 23:48
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1074,46 +1074,40 @@ Overfull \hbox (20.31537pt too wide) in paragraph at lines 46--69
  [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
-
- []
-
-[9] [10] <images/scatter_matrix_all_rots.png, id=89, 1233.6489pt x 623.6901pt>
-File: images/scatter_matrix_all_rots.png Graphic file (type png)
-
-<use images/scatter_matrix_all_rots.png>
-Package pdftex.def Info: images/scatter_matrix_all_rots.png used on input line 
-80.
+[9] [10]
+<images/scatter_matrix_slow_rots_rotlabels.png, id=89, 1233.6489pt x 623.6901pt
+>
+File: images/scatter_matrix_slow_rots_rotlabels.png Graphic file (type png)
+ <use images/scatter_matrix_slow_rots_rotlabels.png>
+Package pdftex.def Info: images/scatter_matrix_slow_rots_rotlabels.png used on 
+input line 78.
 (pdftex.def)             Requested size: 702.79189pt x 355.30719pt.
 
-Underfull \vbox (badness 3590) has occurred while \output is active []
-
- [11]
-<images/scatter_matrix_slow_rots.png, id=93, 1233.6489pt x 623.6901pt>
-File: images/scatter_matrix_slow_rots.png Graphic file (type png)
-
-<use images/scatter_matrix_slow_rots.png>
-Package pdftex.def Info: images/scatter_matrix_slow_rots.png used on input line
- 86.
+<images/scatter_matrix_fast_rots_rotlabels.png, id=90, 1233.6489pt x 623.6901pt
+>
+File: images/scatter_matrix_fast_rots_rotlabels.png Graphic file (type png)
+ <use images/scatter_matrix_fast_rots_rotlabels.png>
+Package pdftex.def Info: images/scatter_matrix_fast_rots_rotlabels.png used on 
+input line 84.
 (pdftex.def)             Requested size: 702.79189pt x 355.30719pt.
-
-<images/scatter_matrix_fast_rots.png, id=94, 1233.6489pt x 623.6901pt>
-File: images/scatter_matrix_fast_rots.png Graphic file (type png)
-
-<use images/scatter_matrix_fast_rots.png>
-Package pdftex.def Info: images/scatter_matrix_fast_rots.png used on input line
- 92.
-(pdftex.def)             Requested size: 702.79189pt x 355.30719pt.
-) (results/results.tex [12] [13 <./images/scatter_matrix_all_rots.png>] [14 <./
-images/scatter_matrix_slow_rots.png>]
-[15 <./images/scatter_matrix_fast_rots.png>]
+) (results/results.tex
+[11] [12 <./images/scatter_matrix_slow_rots_rotlabels.png>] [13 <./images/scatt
+er_matrix_fast_rots_rotlabels.png>]
 Chapter 4.
-) (conclusion/conclusion.tex [16
 
-]
+LaTeX Warning: Citation 'simmons_2016' on page 14 undefined on input line 8.
+
+<images/DT_lamre.png, id=102, 1233.6489pt x 623.6901pt>
+File: images/DT_lamre.png Graphic file (type png)
+
+<use images/DT_lamre.png>
+Package pdftex.def Info: images/DT_lamre.png used on input line 18.
+(pdftex.def)             Requested size: 483.69687pt x 244.54195pt.
+) [14
+
+] (conclusion/conclusion.tex [15 <./images/DT_lamre.png>]
 Chapter 5.
-) [17
+) [16
 
 ]
 ! Undefined control sequence.
@@ -1384,7 +1378,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[18
+[17
 
 ]
 Overfull \hbox (247.2941pt too wide) in paragraph at lines 43--43
@@ -1393,49 +1387,55 @@ Overfull \hbox (247.2941pt too wide) in paragraph at lines 43--43
 ernel.htm.
  []
 
-[19] (thesis.aux)
+[18] (thesis.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                thesis
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20844 strings out of 493333
- 398736 string characters out of 3139191
- 786146 words of memory out of 3000000
+ 20845 strings out of 493333
+ 398778 string characters out of 3139191
+ 787192 words of memory out of 3000000
  24105 multiletter control sequences out of 15000+200000
- 30139 words of font info for 86 fonts, out of 3000000 for 9000
+ 30960 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,16n,45p,10405b,1360s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \ectt1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
 n\ec\dpi600\eccc1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
 our\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Joshua\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk> <C:\Users\Joshua\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\
-Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk>
+onts\pk\ljfour\jknappen\ec\dpi600\ecsl0800.pk> <C:\Users\Joshua\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Joshua\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk> <C:\Users\
+Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk>
  <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-cbx1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecbx2488.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Joshua\AppData\Local\MiK
-TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Joshua\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (29 pages, 1120948 bytes).
+crm0800.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecbx1200.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Joshua\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Joshua\AppData\Local\MiK
+TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Joshua\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Jo
+shua\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on thesis.pdf (28 pages, 830237 bytes).
 PDF statistics:
- 609 PDF objects out of 1000 (max. 8388607)
+ 618 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
