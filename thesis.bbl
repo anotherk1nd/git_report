@@ -1114,6 +1114,29 @@
       \field{note}{Accessed: 2017-02-05}
       \field{title}{Scope of SDSS Survey}
     \endentry
+    \entry{vanschoren}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4ce3afeba4f8f866dbad8e5b02118406}{%
+           family={Vanschoren},
+           familyi={V\bibinitperiod},
+           given={Joaquin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ce3afeba4f8f866dbad8e5b02118406}
+      \strng{fullhash}{4ce3afeba4f8f866dbad8e5b02118406}
+      \strng{authornamehash}{4ce3afeba4f8f866dbad8e5b02118406}
+      \strng{authorfullhash}{4ce3afeba4f8f866dbad8e5b02118406}
+      \field{labelalpha}{Van}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{OpenML: exploring machine learning better, together.}
+      \field{title}{OpenML}
+      \verb{url}
+      \verb https://www.openml.org/a/estimation-procedures/1
+      \endverb
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

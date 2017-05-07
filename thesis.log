@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  7 MAY 2017 14:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  7 MAY 2017 23:40
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -844,21 +844,26 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 \@quotelevel=\count363
 \@quotereset=\count364
- (thesis.aux)
+ (thesis.aux
+
+LaTeX Warning: Label `fig:confmatDT' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -916,8 +921,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 11.
-Package biblatex Info: Reference segment=0 on input line 11.
+Package biblatex Info: Reference section=0 on input line 10.
+Package biblatex Info: Reference segment=0 on input line 10.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\translator\dicts\translator-basi
 c-dictionary\translator-basic-dictionary-English.dict"
@@ -927,19 +932,19 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/02/19 v2.7d siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count371
-LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+LaTeX Font Info:    Try loading font information for U+msa on input line 10.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+LaTeX Font Info:    Try loading font information for U+msb on input line 10.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count372
 
-Overfull \vbox (57.1399pt too high) detected at line 21
+Overfull \vbox (57.1399pt too high) detected at line 20
  []
 
 [1
@@ -973,11 +978,10 @@ Overfull \vbox (57.1399pt too high) detected at line 21
 
  [7
 
-] [8
-
-] (introduction/introduction.tex
+] [8] (introduction/introduction.tex
 Chapter 1.
 ) (background/background.tex [1
+
 
 ]
 Chapter 2.
@@ -1074,8 +1078,15 @@ Overfull \hbox (20.31537pt too wide) in paragraph at lines 46--69
  [][] 
  []
 
-[9] [10]
-<images/scatter_matrix_slow_rots_rotlabels.png, id=89, 1233.6489pt x 623.6901pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+[10]
+Underfull \vbox (badness 2359) has occurred while \output is active []
+
+ [11]
+<images/scatter_matrix_slow_rots_rotlabels.png, id=92, 1233.6489pt x 623.6901pt
 >
 File: images/scatter_matrix_slow_rots_rotlabels.png Graphic file (type png)
  <use images/scatter_matrix_slow_rots_rotlabels.png>
@@ -1083,7 +1094,7 @@ Package pdftex.def Info: images/scatter_matrix_slow_rots_rotlabels.png used on
 input line 78.
 (pdftex.def)             Requested size: 702.79189pt x 355.30719pt.
 
-<images/scatter_matrix_fast_rots_rotlabels.png, id=90, 1233.6489pt x 623.6901pt
+<images/scatter_matrix_fast_rots_rotlabels.png, id=93, 1233.6489pt x 623.6901pt
 >
 File: images/scatter_matrix_fast_rots_rotlabels.png Graphic file (type png)
  <use images/scatter_matrix_fast_rots_rotlabels.png>
@@ -1091,17 +1102,17 @@ Package pdftex.def Info: images/scatter_matrix_fast_rots_rotlabels.png used on
 input line 84.
 (pdftex.def)             Requested size: 702.79189pt x 355.30719pt.
 ) (results/results.tex
-[11] [12 <./images/scatter_matrix_slow_rots_rotlabels.png>] [13 <./images/scatt
+[12] [13 <./images/scatter_matrix_slow_rots_rotlabels.png>] [14 <./images/scatt
 er_matrix_fast_rots_rotlabels.png>]
 Chapter 4.
-<images/DT_lamre.png, id=102, 1233.6489pt x 623.6901pt>
+<images/DT_lamre.png, id=105, 1233.6489pt x 623.6901pt>
 File: images/DT_lamre.png Graphic file (type png)
 
 <use images/DT_lamre.png>
 Package pdftex.def Info: images/DT_lamre.png used on input line 16.
 (pdftex.def)             Requested size: 483.69687pt x 244.54195pt.
 
-<images/DTSuccessBar.png, id=103, 939.51pt x 451.6875pt>
+<images/DTSuccessBar.png, id=106, 939.51pt x 451.6875pt>
 File: images/DTSuccessBar.png Graphic file (type png)
 
 <use images/DTSuccessBar.png>
@@ -1109,36 +1120,76 @@ Package pdftex.def Info: images/DTSuccessBar.png used on input line 24.
 (pdftex.def)             Requested size: 483.69687pt x 232.54239pt.
 
 
-LaTeX Warning: Reference `zerodt' on page 14 undefined on input line 28.
+LaTeX Warning: Reference `zerodt' on page 15 undefined on input line 28.
 
-<images/zerodt.png, id=104, 1233.6489pt x 623.6901pt>
+<images/zerodt.png, id=107, 1233.6489pt x 623.6901pt>
 File: images/zerodt.png Graphic file (type png)
  <use images/zerodt.png>
 Package pdftex.def Info: images/zerodt.png used on input line 31.
 (pdftex.def)             Requested size: 483.69687pt x 244.54195pt.
+
+<images/norm_conf_mat_DT_normalised.png, id=108, 578.16pt x 431.4519pt>
+File: images/norm_conf_mat_DT_normalised.png Graphic file (type png)
+
+<use images/norm_conf_mat_DT_normalised.png>
+Package pdftex.def Info: images/norm_conf_mat_DT_normalised.png used on input l
+ine 40.
+(pdftex.def)             Requested size: 483.69687pt x 360.95561pt.
+
+<images/multiplot_correctincorrect_2d_withcol.png, id=109, 1233.6489pt x 623.69
+01pt>
+File: images/multiplot_correctincorrect_2d_withcol.png Graphic file (type png)
+ <use images/multiplot_correctincorrect_2d_withcol.png>
+Package pdftex.def Info: images/multiplot_correctincorrect_2d_withcol.png used 
+on input line 48.
+(pdftex.def)             Requested size: 483.69687pt x 244.54195pt.
+
+<images/norm_conf_mat_DTandSersic_normalised.png, id=110, 578.16pt x 431.4519pt
+>
+File: images/norm_conf_mat_DTandSersic_normalised.png Graphic file (type png)
+ <use images/norm_conf_mat_DTandSersic_normalised.png>
+Package pdftex.def Info: images/norm_conf_mat_DTandSersic_normalised.png used o
+n input line 55.
+(pdftex.def)             Requested size: 483.69687pt x 360.95561pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15
+
+] [16 <./images/DT_lamre.png> <./images/DTSuccessBar.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17 <./images/zerodt.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[14
-
-]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(conclusion/conclusion.tex [15 <./images/DT_lamre.png>] [16 <./images/DTSuccess
-Bar.png> <./images/zerodt.png>]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
+ [18 <./images/norm_conf_mat_DT_normalised.png>]) (conclusion/conclusion.tex [1
+9 <./images/multiplot_correctincorrect_2d_withcol.png>] [20 <./images/norm_conf
+_mat_DTandSersic_normalised.png>]
 Chapter 5.
-) [17
 
-]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21
+
+])
+[22]
 ! Undefined control sequence.
 <to be read again> \edef \blx@tempa {401\x 
                                            {FFFD}\x {FFFD}\x {FFFD}417}
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1149,7 +1200,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <to be read again> ... \blx@tempa {401\x {FFFD}\x 
                                                   {FFFD}\x {FFFD}417}
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1160,7 +1211,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <to be read again> ...pa {401\x {FFFD}\x {FFFD}\x 
                                                   {FFFD}417}
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1171,7 +1222,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 l.1 %%%\x
           {FFF%}\x {FFF%}\x {FFF%}%%%
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1182,7 +1233,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 l.1 %%%\x {FFF%}\x
                    {FFF%}\x {FFF%}%%%
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1193,7 +1244,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 l.1 %%%\x {FFF%}\x {FFF%}\x
                             {FFF%}%%%
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1204,7 +1255,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <to be read again> \edef \blx@tempa {401\x 
                                            {FFFD}\x {FFFD}\x {FFFD}417}
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1215,7 +1266,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <to be read again> ... \blx@tempa {401\x {FFFD}\x 
                                                   {FFFD}\x {FFFD}417}
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1226,7 +1277,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <to be read again> ...pa {401\x {FFFD}\x {FFFD}\x 
                                                   {FFFD}417}
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1237,7 +1288,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 l.1 %%%\x
           {FFF%}\x {FFF%}\x {FFF%}%%%
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1248,7 +1299,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 l.1 %%%\x {FFF%}\x
                    {FFF%}\x {FFF%}%%%
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1259,7 +1310,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 l.1 %%%\x {FFF%}\x {FFF%}\x
                             {FFF%}%%%
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1270,7 +1321,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> 401\x 
                  {fffd}\x {fffd}\x {fffd}417
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1281,7 +1332,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> 401\x {fffd}\x 
                           {fffd}\x {fffd}417
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1292,7 +1343,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> 401\x {fffd}\x {fffd}\x 
                                    {fffd}417
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1300,14 +1351,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 41.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 40.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 ! Undefined control sequence.
 <argument> {The ATLAS 3D project \x 
                                     {fffd}\x {fffd}\x {fffd} III . A census ...
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1318,7 +1369,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> {The ATLAS 3D project \x {fffd}\x 
                                              {fffd}\x {fffd} III . A census ...
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1329,7 +1380,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...LAS 3D project \x {fffd}\x {fffd}\x 
                                                   {fffd} III . A census of t...
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1340,7 +1391,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> {The ATLAS 3D project \x 
                                     {fffd}\x {fffd}\x {fffd} I . A volume-li...
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1351,7 +1402,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> {The ATLAS 3D project \x {fffd}\x 
                                              {fffd}\x {fffd} I . A volume-li...
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1362,7 +1413,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...LAS 3D project \x {fffd}\x {fffd}\x 
                                                   {fffd} I . A volume-limite...
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1373,7 +1424,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> {The ATLAS 3D project \x 
                                     {fffd}\x {fffd}\x {fffd} III . A census ...
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1384,7 +1435,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> {The ATLAS 3D project \x {fffd}\x 
                                              {fffd}\x {fffd} III . A census ...
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1395,7 +1446,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...LAS 3D project \x {fffd}\x {fffd}\x 
                                                   {fffd} III . A census of t...
-l.43 \end
+l.42 \end
          {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1403,28 +1454,31 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[18
+[23
 
 ]
-Overfull \hbox (247.2941pt too wide) in paragraph at lines 43--43
+Overfull \hbox (247.2941pt too wide) in paragraph at lines 42--42
 []\T1/cmr/m/n/12 Unknown. \T1/cmr/m/it/12 Scope of SDSS Sur-vey\T1/cmr/m/n/12 .
  http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/k
 ernel.htm.
  []
 
-[19] (thesis.aux)
+[24] (thesis.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20860 strings out of 493333
- 399108 string characters out of 3139191
- 787227 words of memory out of 3000000
- 24118 multiletter control sequences out of 15000+200000
+ 20896 strings out of 493333
+ 400206 string characters out of 3139191
+ 787350 words of memory out of 3000000
+ 24148 multiletter control sequences out of 15000+200000
  30960 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,16n,45p,10405b,1360s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1453,9 +1507,9 @@ lic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (29 pages, 864032 bytes).
+Output written on thesis.pdf (34 pages, 1004106 bytes).
 PDF statistics:
- 629 PDF objects out of 1000 (max. 8388607)
+ 653 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

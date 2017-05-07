@@ -19,14 +19,14 @@ When we look at the D/T dependence of the $\lambda_{Re}$ value, we see a more pr
 	\label{fig:dtlamre}
 \end{figure}
 The algorithm was then trained using D/T, improving the success rate to 81\%. Interestingly, when we evaluate the success of the decision tree classifier for those galaxies with no exponential disk component, where D/T$\lesssim $0.05, we find that the decision tree is still able to correctly classify the majority of galaxies.
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{DTSuccessBar.png}
 	\caption{Prediction success for galaxies with D/T $\lesssim$ 0.05.}
 	\label{fig:dtbar}
 \end{figure}
 The success rate for just these galaxies is $\approx$77\% which is more than that expected from the binomial distribution. However, the apparent success is undermined when we plot the results for just these galaxies in \ref{zerodt}.
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{zerodt.png}
 	\caption{Investigating the results where D/T$\lesssim $0.05. We see that the algorithm predicts galaxies to be universally fast rotators.
@@ -34,10 +34,46 @@ The success rate for just these galaxies is $\approx$77\% which is more than tha
 	\label{fig:zerodt}
 \end{figure}
 The algorithm benefited from the fact that only $\approx$10\% of the galaxies with no disk in the test set were slow rotators. If the choice was made randomly, the success would be $\approx$15\%, and so represents a significant improvement, but would hardly require such statistical learning methods to make the conclusion that if there is no disk it is most likely a fast rotator.
-The algorithm was then trained using both D/T and Se\'rsic index of the single fit by passing the features as an $n\times 2$ matrix, resulting in a success rate of 75\%, exceeding expectations based on random guess alone, but is less than what was achieved using D/T alone. The plots suggest that the algorithm is attempting to slow rotators more often rather than blindly assuming all galaxies are fast rotators, but it only successfully predicts a slow rotator once. Furthermore, 
-\begin{figure}[h]
+This is emphasised by the computed confusion matrix that analyses the number of true positives, false positives, true negatives and false negatives:
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{norm_conf_mat_DT_normalised.png}
+	\caption{Confusion Matric for predictions based on D/T.
+	}
+	\label{fig:confmatDT}
+\end{figure}
+The algorithm was then trained using both D/T and Se\'rsic index of the single fit by passing the features as an $n\times 2$ matrix, resulting in a success rate of 75\%, exceeding expectations based on random guess alone slightly, but is less than what was achieved using D/T alone. The plots suggest that the algorithm is predicting slow rotators slightly more often rather than blindly assuming all galaxies are fast rotators, but it only successfully predicts a slow rotator once.
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{multiplot_correctincorrect_2d_withcol.png}
 	\caption{Evaluating the success of decision trees with 2 variables, se\'rsic index and D/T. The markers are colour coded to be magenta for fast rotators and blue for slow rotators.
 	}
 	\label{fig:correctvsincorrect}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{norm_conf_mat_DTandSersic_normalised.png}
+	\caption{Confusion Matric for predictions based on D/T and Se\'rsic Index.
+	}
+	\label{fig:confmatDT}
+\end{figure}
+These results suggest that the use of decision trees with parameters initialised to their defaults are not very promising. However, there are a large number of parameters, as outlined in the preceding sections, that can be tuned to maximise the efficiency of the classifier. SKlearn has the inbuilt function GridSearchCV that performs an exhaustive search over specified parameter values for an estimator. To avoid difficulties posed by a limited dataset size, the algorithm uses a k-fold cross-validation where:
+\begin{quotation}
+	The original sample is randomly partitioned into k equal size subsamples. Of the k subsamples, a single subsample is retained as the validation data for testing the model, and the remaining k-1 subsamples are used as training data. The cross-validation process is then repeated k times (the folds), with each of the k subsamples used exactly once as the validation data. The k results from the folds can then be averaged (or otherwise combined) to produce a single estimation. The advantage of this method is that all observations are used for both training and validation, and each observation is used for validation exactly once.\cite{vanschoren}
+\end{quotation}
+This was performed using the possible options:
+\begin{itemize}
+	\item criterion:['gini','entropy']
+	\item splitter:['best','random']
+	\item max\_features:['sqrt','log2',None]
+	\item max\_depth:range(1,10)
+\end{itemize}
+In so doing, the success rate was increased to $\approx$ 93\%, with the following options:
+\begin{itemize}
+	\item criterion='entropy'
+	\item splitter='best'
+	\item max\_features='sqrt'
+	\item max\_depth=4
+\end{itemize}
+
+Predictions were then made using the random forest algorithm. Using just the se\'rsic index exactly reproduced the results of the original decision tree with a success rate of 71\%, matching the binomial distribution again. 

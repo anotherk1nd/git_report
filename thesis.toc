@@ -15,11 +15,11 @@
 \contentsline {section}{\numberline {3.1}The scikit-learn library}{7}
 \contentsline {section}{\numberline {3.2}Decision Trees}{7}
 \contentsline {subsection}{\numberline {3.2.1}Parameters}{9}
-\contentsline {section}{\numberline {3.3}Data \& Formatting}{9}
-\contentsline {subsection}{\numberline {3.3.1}ATLAS\textsuperscript {3D}}{9}
-\contentsline {chapter}{\numberline {4}Results}{14}
-\contentsline {section}{\numberline {4.1}ATLAS\textsuperscript {3D}}{14}
-\contentsline {chapter}{\numberline {5}Conclusion}{17}
-\contentsline {section}{\numberline {5.1}Summary of Thesis Achievements}{17}
-\contentsline {section}{\numberline {5.2}Applications}{17}
-\contentsline {section}{\numberline {5.3}Future Work}{17}
+\contentsline {section}{\numberline {3.3}Data \& Formatting}{11}
+\contentsline {subsection}{\numberline {3.3.1}ATLAS\textsuperscript {3D}}{11}
+\contentsline {chapter}{\numberline {4}Results}{15}
+\contentsline {section}{\numberline {4.1}ATLAS\textsuperscript {3D}}{15}
+\contentsline {chapter}{\numberline {5}Conclusion}{21}
+\contentsline {section}{\numberline {5.1}Summary of Thesis Achievements}{22}
+\contentsline {section}{\numberline {5.2}Applications}{22}
+\contentsline {section}{\numberline {5.3}Future Work}{22}
