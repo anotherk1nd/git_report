@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  23 APR 2017 23:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  7 MAY 2017 14:18
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -985,7 +985,7 @@ Missing character: There is no Ï in font cmr12!
 Missing character: There is no ƒ in font cmr12!
 [2
 
-] <images/fastslowemsellem2008.png, id=54, 338.01282pt x 279.29344pt>
+] <images/fastslowemsellem2008.png, id=55, 338.01282pt x 279.29344pt>
 File: images/fastslowemsellem2008.png Graphic file (type png)
 
 <use images/fastslowemsellem2008.png>
@@ -993,7 +993,7 @@ Package pdftex.def Info: images/fastslowemsellem2008.png used on input line 23.
 
 (pdftex.def)             Requested size: 338.01198pt x 279.29276pt.
 
-<images/morphology_sersic_cortese2016.png, id=55, 393.72093pt x 288.3272pt>
+<images/morphology_sersic_cortese2016.png, id=56, 393.72093pt x 288.3272pt>
 File: images/morphology_sersic_cortese2016.png Graphic file (type png)
 
 <use images/morphology_sersic_cortese2016.png>
@@ -1094,20 +1094,45 @@ input line 84.
 [11] [12 <./images/scatter_matrix_slow_rots_rotlabels.png>] [13 <./images/scatt
 er_matrix_fast_rots_rotlabels.png>]
 Chapter 4.
-
-LaTeX Warning: Citation 'simmons_2016' on page 14 undefined on input line 8.
-
 <images/DT_lamre.png, id=102, 1233.6489pt x 623.6901pt>
 File: images/DT_lamre.png Graphic file (type png)
 
 <use images/DT_lamre.png>
-Package pdftex.def Info: images/DT_lamre.png used on input line 18.
+Package pdftex.def Info: images/DT_lamre.png used on input line 16.
 (pdftex.def)             Requested size: 483.69687pt x 244.54195pt.
-) [14
 
-] (conclusion/conclusion.tex [15 <./images/DT_lamre.png>]
+<images/DTSuccessBar.png, id=103, 939.51pt x 451.6875pt>
+File: images/DTSuccessBar.png Graphic file (type png)
+
+<use images/DTSuccessBar.png>
+Package pdftex.def Info: images/DTSuccessBar.png used on input line 24.
+(pdftex.def)             Requested size: 483.69687pt x 232.54239pt.
+
+
+LaTeX Warning: Reference `zerodt' on page 14 undefined on input line 28.
+
+<images/zerodt.png, id=104, 1233.6489pt x 623.6901pt>
+File: images/zerodt.png Graphic file (type png)
+ <use images/zerodt.png>
+Package pdftex.def Info: images/zerodt.png used on input line 31.
+(pdftex.def)             Requested size: 483.69687pt x 244.54195pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14
+
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(conclusion/conclusion.tex [15 <./images/DT_lamre.png>] [16 <./images/DTSuccess
+Bar.png> <./images/zerodt.png>]
 Chapter 5.
-) [16
+) [17
 
 ]
 ! Undefined control sequence.
@@ -1378,7 +1403,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[17
+[18
 
 ]
 Overfull \hbox (247.2941pt too wide) in paragraph at lines 43--43
@@ -1387,24 +1412,19 @@ Overfull \hbox (247.2941pt too wide) in paragraph at lines 43--43
 ernel.htm.
  []
 
-[18] (thesis.aux)
+[19] (thesis.aux)
 
 LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                thesis
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20845 strings out of 493333
- 398778 string characters out of 3139191
- 787192 words of memory out of 3000000
- 24105 multiletter control sequences out of 15000+200000
+ 20860 strings out of 493333
+ 399108 string characters out of 3139191
+ 787227 words of memory out of 3000000
+ 24118 multiletter control sequences out of 15000+200000
  30960 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,16n,45p,10405b,1360s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1433,9 +1453,9 @@ lic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (28 pages, 830237 bytes).
+Output written on thesis.pdf (29 pages, 864032 bytes).
 PDF statistics:
- 618 PDF objects out of 1000 (max. 8388607)
+ 629 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

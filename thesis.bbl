@@ -1049,6 +1049,31 @@
       \endverb
       \keyw{evolution,fundamental parameters,galaxies,kinemat-}
     \endentry
+    \entry{simmons_2016}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8b076b7660a226719cea1d91a4b9f109}{%
+           family={Simmons},
+           familyi={S\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b076b7660a226719cea1d91a4b9f109}
+      \strng{fullhash}{8b076b7660a226719cea1d91a4b9f109}
+      \strng{authornamehash}{8b076b7660a226719cea1d91a4b9f109}
+      \strng{authorfullhash}{8b076b7660a226719cea1d91a4b9f109}
+      \field{labelalpha}{Sim16}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Math Words}
+      \field{month}{2}
+      \field{title}{Binomial Probability Formula}
+      \field{year}{2016}
+      \verb{url}
+      \verb http://www.mathwords.com/b/binomial_probability_formula.htm
+      \endverb
+    \endentry
     \entry{sklearn}{misc}{}
       \name{author}{1}{}{%
         {{hash=e68ec1e0f408f645d33fd38e2cb09653}{%
