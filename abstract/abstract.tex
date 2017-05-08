@@ -3,6 +3,6 @@
 
 \begin{abstract}
 
-Text of the Abstract.
+Decision trees were successfully applied to the photometric variables se\'rsic index and D/T ratios for the subset of 260 ATLAS$_{3D}$ galaxies for which the spin parameter $\lambda_{Re}$ had been calculated by \cite{Emsellem2011} and photometric quantities determined by \cite{Krajnovic2013}. When trained using these variables independently using the initialised parameter options, the results were not promising, with success rate based on n reaching 73\%, exactly matching the binomial distribution for a random guess given the different sizes of the 2 populations. When trained using D/T alone, the success was increased to 81\%, but this result was skewed by the large number of galaxies with no exponential disk component, where D/T$\lesssim $0.05, being classed universally as fast rotators. When both parameters were used for training, the algorithm did marginally better than with n alone, achieving a success rate of 75\%, but this is hardly much of an improvement over guessing randomly. The most promising results were achieved when the inbuilt sklearn function GridSearchCV was used that exhaustively searches the parameter space over a given range of values and/or options, and partitions the data into k subsets and recursively trains on k-1 subsets retaining 1 for validation of results. In so doing, the best parameters were found and the success rate increased dramatically to 93\%.
 
 \end{abstract}

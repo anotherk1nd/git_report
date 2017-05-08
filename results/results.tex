@@ -1,11 +1,10 @@
 %\usepackage{cleveref}
-\chapter{Results}
+\chapter{Results \& Conclusions}
 
 \label{ch:results}
 
 \section{ATLAS\textsuperscript{3D}}
-Initially, the algorithm was trained using the $\lambda_{Re}$ to predict the FS classification since they were related directly according to ref{eq:2.4}
-(NEED TO FIX REFERENCING EQUATIONS). Promisingly, the classifier was 100\% successful in its predictions. Training was then performed using the Se\'rsic index of the single fit, n, and achieved success of 71\% which exactly matched the probability of randomly selecting the answer given by the binomial probability distribution which is necessary due to the binomial nature of the outcome with differing sizes of the two populations, given by\cite{simmons_2016}:
+Initially, the algorithm was trained using the $\lambda_{Re}$ to predict the FS classification since they were related directly. Promisingly, the classifier was 100\% successful in its predictions. Training was then performed using the Se\'rsic index of the single fit, n, and achieved success of 71\% which exactly matched the probability of randomly selecting the answer given by the binomial probability distribution which is necessary due to the binomial nature of the outcome with differing sizes of the two populations, given by\cite{simmons_2016}:
 \begin{equation}
 P(k,n) = \binom{n}{k}p^{k}q^{n-k}
 \end{equation}
@@ -38,10 +37,11 @@ This is emphasised by the computed confusion matrix that analyses the number of 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{norm_conf_mat_DT_normalised.png}
-	\caption{Confusion Matric for predictions based on D/T.
+	\caption{Confusion Matrix for predictions based on D/T.
 	}
 	\label{fig:confmatDT}
 \end{figure}
+Again, we see a very high success rate for fast rotators at around 97\%, but this undermined by the almost equally high misclassification error for slow rotators.
 The algorithm was then trained using both D/T and Se\'rsic index of the single fit by passing the features as an $n\times 2$ matrix, resulting in a success rate of 75\%, exceeding expectations based on random guess alone slightly, but is less than what was achieved using D/T alone. The plots suggest that the algorithm is predicting slow rotators slightly more often rather than blindly assuming all galaxies are fast rotators, but it only successfully predicts a slow rotator once.
 \begin{figure}[h!]
 	\centering
@@ -75,5 +75,4 @@ In so doing, the success rate was increased to $\approx$ 93\%, with the followin
 	\item max\_features='sqrt'
 	\item max\_depth=4
 \end{itemize}
-
-Predictions were then made using the random forest algorithm. Using just the se\'rsic index exactly reproduced the results of the original decision tree with a success rate of 71\%, matching the binomial distribution again. 
+In conclusion, decision trees offer promising results in identifying fast from slow rotating galaxies but requires some initial sorting of the data and careful model selection. The presence of a large number of galaxies with no disk component significantly skewed the results, and would best be initially filtered out since no new information is to be gained from their inclusion. Further study would focus on galaxies that have no disk component exclusively to see if better results can be achieved.
