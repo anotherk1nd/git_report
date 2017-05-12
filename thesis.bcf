@@ -40,7 +40,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labelnamespec</bcf:key>
@@ -366,6 +366,7 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
+    <bcf:option datatype="boolean">subentry</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
     <bcf:option datatype="integer">maxnames</bcf:option>
@@ -2142,28 +2143,29 @@
     <bcf:citekey order="1">Emsellem2011</bcf:citekey>
     <bcf:citekey order="2">Krajnovic2013</bcf:citekey>
     <bcf:citekey order="5">Cappellari2011</bcf:citekey>
-    <bcf:citekey order="6">Emsellem2011</bcf:citekey>
-    <bcf:citekey order="7">Emsellem2011</bcf:citekey>
-    <bcf:citekey order="8">sauron9</bcf:citekey>
-    <bcf:citekey order="9">mo_bosch_white_2010</bcf:citekey>
-    <bcf:citekey order="10">Cortese2016</bcf:citekey>
-    <bcf:citekey order="11">Emsellem2011</bcf:citekey>
-    <bcf:citekey order="12">Emsellem2011</bcf:citekey>
-    <bcf:citekey order="13">Cortese2016</bcf:citekey>
-    <bcf:citekey order="14">Cortese2016</bcf:citekey>
-    <bcf:citekey order="15">SDSS</bcf:citekey>
-    <bcf:citekey order="16">Emsellem2011</bcf:citekey>
-    <bcf:citekey order="17">Cortese2016</bcf:citekey>
-    <bcf:citekey order="18">Cappellari2011</bcf:citekey>
+    <bcf:citekey order="6">Krajnovic2013</bcf:citekey>
+    <bcf:citekey order="7">Cappellari2011</bcf:citekey>
+    <bcf:citekey order="8">Emsellem2011</bcf:citekey>
+    <bcf:citekey order="9">Emsellem2011</bcf:citekey>
+    <bcf:citekey order="10">sauron9</bcf:citekey>
+    <bcf:citekey order="11">mo_bosch_white_2010</bcf:citekey>
+    <bcf:citekey order="12">Cortese2016</bcf:citekey>
+    <bcf:citekey order="13">Emsellem2011</bcf:citekey>
+    <bcf:citekey order="14">Emsellem2011</bcf:citekey>
+    <bcf:citekey order="15">Cortese2016</bcf:citekey>
+    <bcf:citekey order="16">Cortese2016</bcf:citekey>
+    <bcf:citekey order="17">SDSS</bcf:citekey>
+    <bcf:citekey order="18">Emsellem2011</bcf:citekey>
     <bcf:citekey order="19">Cappellari2011</bcf:citekey>
-    <bcf:citekey order="20">Pedregosa2012</bcf:citekey>
-    <bcf:citekey order="21">sklearn</bcf:citekey>
+    <bcf:citekey order="20">Cappellari2011</bcf:citekey>
+    <bcf:citekey order="21">Pedregosa2012</bcf:citekey>
     <bcf:citekey order="22">sklearn</bcf:citekey>
-    <bcf:citekey order="23">Krajnovic2013</bcf:citekey>
-    <bcf:citekey order="24">Emsellem2011</bcf:citekey>
-    <bcf:citekey order="25">simmons_2016</bcf:citekey>
-    <bcf:citekey order="26">Krajnovic2013</bcf:citekey>
-    <bcf:citekey order="27">vanschoren</bcf:citekey>
+    <bcf:citekey order="23">sklearn</bcf:citekey>
+    <bcf:citekey order="24">Krajnovic2013</bcf:citekey>
+    <bcf:citekey order="25">Emsellem2011</bcf:citekey>
+    <bcf:citekey order="26">simmons_2016</bcf:citekey>
+    <bcf:citekey order="27">Krajnovic2013</bcf:citekey>
+    <bcf:citekey order="28">vanschoren</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="ynt/global/" type="entry" sortscheme="ynt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

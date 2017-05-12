@@ -31,25 +31,27 @@ This is superior over a velocity dispersion classification, $V/\sigma$, which fa
 As can be seen in figure \ref{fig:morphologysersic}, there appears a weak correlation for galaxies in the SAMI survey for early-type galaxies, suggesting that based on se\'rsic index alone there is some prospect for applying statistical methods to infer morphology.
 The spin parameter is costly to determine due to its reliance on integral field spectroscopy and has therefore only been found for a small number of galaxies: 260 from the ATLAS3D survey and 446 from SAMI. This compares with over 500 million galaxies with photometric data from the Sloan Digital Sky Survey (SDSS) alone \cite{SDSS}. Although other classifications do not rely on this parameter, it is still of value in relation to other properties. It is therefore of great value to find an alternative means of identifying the rotation.\
 Although the motivation for this study is to extend identifying the spin parameter to all morphological classes, this paper will focus on the early-type galaxies taken from \cite{Emsellem2011}, defined as Hubble type E/S0's, T-type $T < −3.5$ (Es) and $T \geq −3.5$ (S0s).
-\section{Measured Parameters}
-The parameters used in modelling the data were:
-\subsection{Variations of the Spin Parameter}
+\section{Variations of the Spin Parameter}
 The ATLAS3D paper measured $\lambda$ to 1 effective radius, $R_{e}$ and to half the effective radius, $R_{e}/2$, where 
 \begin{equation}
 I(R_{e}=I_{0}/e)
 \end{equation}
-whereas the SAMI paper only measured this for $R_{e}$\cite[p.~3]{Cortese2016}. The spin parameter was later updated by \cite{Cappellari2011} to take account of possible line-of-sight dependencies on the orientation by including the ellipticity, and thus was defined as:
+The spin parameter was later updated by \cite{Cappellari2011} to take account of possible line-of-sight dependencies on the orientation by including the ellipticity, and thus was defined as:
 \begin{equation}
 \lambda_{Re} = \frac{\lambda}{\sqrt{\epsilon}}
 \end{equation}
-\subsection{S\'ersic Index of the Single Fit and Bulge Component, n and $n_{b}$}
+and hence the threshold for separating fast and slow rotators was defined as:
+\begin{equation}
+\lambda_{Re}=(0.31\pm0.01)\times \sqrt{\epsilon}
+\end{equation}
+\section{S\'ersic Index of the Single Fit and Bulge Component, n and $n_{b}$}
 The S\'ersic profile models the light intensity over the surface of the galaxy in terms of an exponential function as a function of the distance from the centre, R, and the S\'ersic index n:
 \begin{equation}
 I(R) = I_{e} exp\{-b_{n} [(R/R_{e})^{1/n}-1]\}
 \end{equation}
-\begin{equation}
-\lambda_{Re}=(0.31\pm0.01)
-\end{equation}
+\section{Disk-to-Total Light Ratio, D/T}
+This measures the proportion of light from the galaxy that emanates from the disk to the total light of the galaxy
+
 \section{ATLAS$^{3D}$}
 According to \cite{Cappellari2011}, this survey focused on a 'volume-limited ($\num{1.16e05} Mpc^{3}$) sample of 260 early-type (elliptical E and lenticular S0) galaxies (ETGs)...The sample consists of nearby (D < 42 Mpc, $|\delta \num{-29}^{\circ}| < 35^{\circ}$, $|b| > 15^{\circ})$ morphologically selected ETG's extracted from a parent sample of 871 galaxies (8 per cent E, 22 per cent S0 and
 70 per cent spirals) brighter than $M_{K} <\num{-21.5} $mag (stellar mass $M_{\star} \gtrsim \num{6e09} M_{\odot}$).' ETG's were defined as having de Vaucouleurs T type T > -3.5 and T $\leq -3.5$ for S0 and E galaxies respectively, which correlates with the Hubble classes lenticular and elliptical.

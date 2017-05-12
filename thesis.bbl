@@ -81,7 +81,6 @@
       \strng{fullhash}{cc283acec60bdb21c5584dc6f5d71ea8}
       \strng{authornamehash}{bb238d4238425f24b1dc5d6e3b60551c}
       \strng{authorfullhash}{cc283acec60bdb21c5584dc6f5d71ea8}
-      \field{labelalpha}{Ems+07}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -89,152 +88,13 @@
       \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
       \field{month}{1}
       \field{number}{2}
-      \field{title}{The SAURON project - IX. A kinematic classification for early-type galaxies}
+      \field{title}{The SAURON project IX. A kinematic classification for early-type galaxies}
       \field{volume}{379}
       \field{year}{2007}
-      \field{pages}{401\x{fffd}\x{fffd}\x{fffd}417}
+      \field{pages}{401:417}
       \range{pages}{-1}
       \verb{doi}
       \verb 10.1111/j.1365-2966.2007.11752.x
-      \endverb
-    \endentry
-    \entry{Emsellem2008}{article}{}
-      \name{author}{23}{}{%
-        {{hash=1f21bdc3c915a65a70578bb1ed4bd8f2}{%
-           family={Emsellem},
-           familyi={E\bibinitperiod},
-           given={Eric},
-           giveni={E\bibinitperiod}}}%
-        {{hash=e8394c50a19cfb9fdb03ecd1fed98bad}{%
-           family={Cappellari},
-           familyi={C\bibinitperiod},
-           given={Michele},
-           giveni={M\bibinitperiod}}}%
-        {{hash=88ffec738a9fa317781bb463ffa420ef}{%
-           family={Krajnovi},
-           familyi={K\bibinitperiod},
-           given={Davor},
-           giveni={D\bibinitperiod}}}%
-        {{hash=526dbbd553176a15d693afa4ec5d0d4f}{%
-           family={Alatalo},
-           familyi={A\bibinitperiod},
-           given={Katherine},
-           giveni={K\bibinitperiod}}}%
-        {{hash=5cbccf7182cd650da5cf9550c476f1c1}{%
-           family={Blitz},
-           familyi={B\bibinitperiod},
-           given={Leo},
-           giveni={L\bibinitperiod}}}%
-        {{hash=b30a5bfd183832c68c0a88597adee358}{%
-           family={Bois},
-           familyi={B\bibinitperiod},
-           given={Maxime},
-           giveni={M\bibinitperiod}}}%
-        {{hash=24e1ac5b0cbc57e03941ba3838e80b86}{%
-           family={Bureau},
-           familyi={B\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod}}}%
-        {{hash=03f56e3bb0afdc837060730fb1029eaf}{%
-           family={Davies},
-           familyi={D\bibinitperiod},
-           given={Roger\bibnamedelima L},
-           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=1d1d134c9bd4f6c4b689f29940cc1e25}{%
-           family={Davis},
-           familyi={D\bibinitperiod},
-           given={Timothy\bibnamedelima A},
-           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=4677af129057a524f09a13b4abef5c4a}{%
-           family={Zeeuw},
-           familyi={Z\bibinitperiod},
-           given={P\bibnamedelima T\bibnamedelima De},
-           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=05f8de2310279973afc0fa0740d63087}{%
-           family={Khochfar},
-           familyi={K\bibinitperiod},
-           given={Sadegh},
-           giveni={S\bibinitperiod}}}%
-        {{hash=766191847eb680e05dcf105f5ddeae9b}{%
-           family={Kuntschner},
-           familyi={K\bibinitperiod},
-           given={Harald},
-           giveni={H\bibinitperiod}}}%
-        {{hash=6c83b0677e0c0612f8b7e24d4bdd97a6}{%
-           family={Lablanche},
-           familyi={L\bibinitperiod},
-           given={Pierre-yves},
-           giveni={P\bibinithyphendelim y\bibinitperiod}}}%
-        {{hash=343adf0a2ee0d94fcff87c94d08b29f5}{%
-           family={Mcdermid},
-           familyi={M\bibinitperiod},
-           given={Richard\bibnamedelima M},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=c7953c3ef99e00d2c331c9443edf72af}{%
-           family={Morganti},
-           familyi={M\bibinitperiod},
-           given={Raffaella},
-           giveni={R\bibinitperiod}}}%
-        {{hash=a76aca38cdca203a992dc4832b5928b6}{%
-           family={Naab},
-           familyi={N\bibinitperiod},
-           given={Thorsten},
-           giveni={T\bibinitperiod}}}%
-        {{hash=0f3d7ace4573c3064c020577f530c7d0}{%
-           family={Oosterloo},
-           familyi={O\bibinitperiod},
-           given={Tom},
-           giveni={T\bibinitperiod}}}%
-        {{hash=386f3b3771a53f978ab6186311dda519}{%
-           family={Sarzi},
-           familyi={S\bibinitperiod},
-           given={Marc},
-           giveni={M\bibinitperiod}}}%
-        {{hash=9a2aa84d73f54376bafe7a4cd718f871}{%
-           family={Scott},
-           familyi={S\bibinitperiod},
-           given={Nicholas},
-           giveni={N\bibinitperiod}}}%
-        {{hash=ea2b1c7551ea14cd02af629ecbdc73dc}{%
-           family={Serra},
-           familyi={S\bibinitperiod},
-           given={Paolo},
-           giveni={P\bibinitperiod}}}%
-        {{hash=eb60184b92187997453afc319db8eb04}{%
-           family={Ven},
-           familyi={V\bibinitperiod},
-           given={Glenn\bibnamedelimb Van\bibnamedelima De},
-           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=b99cdaa5bb9cea8f1b609096ddb47e9b}{%
-           family={Weijmans},
-           familyi={W\bibinitperiod},
-           given={Anne-marie},
-           giveni={A\bibinithyphendelim m\bibinitperiod}}}%
-        {{hash=b5d2f72c0fd5cb63619677962eaa7472}{%
-           family={Young},
-           familyi={Y\bibinitperiod},
-           given={Lisa\bibnamedelima M},
-           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{57861c1ed0d087a3293bc65501b80339}
-      \strng{fullhash}{2a24c784824b5e22345dba82b57dc2ee}
-      \strng{authornamehash}{57861c1ed0d087a3293bc65501b80339}
-      \strng{authorfullhash}{2a24c784824b5e22345dba82b57dc2ee}
-      \field{labelalpha}{Ems+08}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{The ATLAS 3D project \x{fffd}\x{fffd}\x{fffd} III . A census of the stellar angular momentum within the effective radius of early-type galaxies : unveiling the distribution of fast and slow rotators}}
-      \field{volume}{912}
-      \field{year}{2008}
-      \field{pages}{888\bibrangedash 912}
-      \range{pages}{25}
-      \verb{doi}
-      \verb 10.1111/j.1365-2966.2011.18496.x
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/Joshua/Documents/Term 1/Project/Related Papers/ATLAS3D/MNRAS-2011-Emsellem-888-912 Fast and Slow Rotators.pdf:pdf
       \endverb
     \endentry
     \entry{mo_bosch_white_2010}{book}{}
@@ -262,7 +122,6 @@
       \strng{fullhash}{55572a9184be4f6192d19d2098c664b5}
       \strng{authornamehash}{55572a9184be4f6192d19d2098c664b5}
       \strng{authorfullhash}{55572a9184be4f6192d19d2098c664b5}
-      \field{labelalpha}{MBW10}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -402,12 +261,11 @@
       \strng{fullhash}{b6e1c8b3261c79ef11fa6bfb9922c543}
       \strng{authornamehash}{940208264db011c51587adc718de3c6d}
       \strng{authorfullhash}{b6e1c8b3261c79ef11fa6bfb9922c543}
-      \field{labelalpha}{Cap+11}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{The ATLAS 3D project \x{fffd}\x{fffd}\x{fffd} I . A volume-limited sample of 260 nearby early-type galaxies : science goals and selection criteria 1 I N T RO D U C T I O N}}
+      \field{title}{{The ATLAS 3D project I . A volume-limited sample of 260 nearby early-type galaxies : science goals and selection criteria}}
       \field{volume}{836}
       \field{year}{2011}
       \field{pages}{813\bibrangedash 836}
@@ -542,12 +400,11 @@
       \strng{fullhash}{2a24c784824b5e22345dba82b57dc2ee}
       \strng{authornamehash}{57861c1ed0d087a3293bc65501b80339}
       \strng{authorfullhash}{2a24c784824b5e22345dba82b57dc2ee}
-      \field{labelalpha}{Ems+11}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{The ATLAS 3D project \x{fffd}\x{fffd}\x{fffd} III . A census of the stellar angular momentum within the effective radius of early-type galaxies : unveiling the distribution of fast and slow rotators}}
+      \field{title}{{The ATLAS 3D project III . A census of the stellar angular momentum within the effective radius of early-type galaxies: unveiling the distribution of fast and slow rotators}}
       \field{volume}{912}
       \field{year}{2011}
       \field{pages}{888\bibrangedash 912}
@@ -646,7 +503,6 @@
       \strng{fullhash}{490c08d091505100c571bcba89f8c65d}
       \strng{authornamehash}{9ec95d747bac3417f92265a9a44f8bb4}
       \strng{authorfullhash}{490c08d091505100c571bcba89f8c65d}
-      \field{labelalpha}{Ped+12}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -798,7 +654,6 @@
       \strng{fullhash}{8d087ec56ab8f7b87be270effde1d39a}
       \strng{authornamehash}{834385c8fda9f0cb014d9c577fb5cf98}
       \strng{authorfullhash}{8d087ec56ab8f7b87be270effde1d39a}
-      \field{labelalpha}{Kra+13}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -808,7 +663,7 @@
       \field{issn}{00358711}
       \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
       \field{number}{3}
-      \field{title}{{The ATLAS3D project - XVII. Linking photometric and kinematic signatures of stellar discs in early-type galaxies}}
+      \field{title}{{The ATLAS3D project XVII. Linking photometric and kinematic signatures of stellar discs in early-type galaxies}}
       \field{volume}{432}
       \field{year}{2013}
       \field{pages}{1768\bibrangedash 1795}
@@ -1018,7 +873,6 @@
       \strng{fullhash}{0b1085e61038ff35933e69c86b085c9d}
       \strng{authornamehash}{749613d05daac9b07a48c0768ed903e3}
       \strng{authorfullhash}{0b1085e61038ff35933e69c86b085c9d}
-      \field{labelalpha}{Cor+16}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -1061,7 +915,6 @@
       \strng{fullhash}{8b076b7660a226719cea1d91a4b9f109}
       \strng{authornamehash}{8b076b7660a226719cea1d91a4b9f109}
       \strng{authorfullhash}{8b076b7660a226719cea1d91a4b9f109}
-      \field{labelalpha}{Sim16}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -1084,7 +937,6 @@
       \strng{fullhash}{e68ec1e0f408f645d33fd38e2cb09653}
       \strng{authornamehash}{e68ec1e0f408f645d33fd38e2cb09653}
       \strng{authorfullhash}{e68ec1e0f408f645d33fd38e2cb09653}
-      \field{labelalpha}{SKD}
       \field{sortinit}{9}
       \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
@@ -1105,12 +957,11 @@
       \strng{fullhash}{88183b946cc5f0e8c96b2e66e1c74a7e}
       \strng{authornamehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
       \strng{authorfullhash}{88183b946cc5f0e8c96b2e66e1c74a7e}
-      \field{labelalpha}{Unk}
       \field{sortinit}{9}
       \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{http://web.archive.org/web/20080207010024/http://www.808multimedia.com/winnt/kernel.htm}
+      \field{howpublished}{http://www.808multimedia.com/winnt/kernel.htm}
       \field{note}{Accessed: 2017-02-05}
       \field{title}{Scope of SDSS Survey}
     \endentry
@@ -1126,7 +977,6 @@
       \strng{fullhash}{4ce3afeba4f8f866dbad8e5b02118406}
       \strng{authornamehash}{4ce3afeba4f8f866dbad8e5b02118406}
       \strng{authorfullhash}{4ce3afeba4f8f866dbad8e5b02118406}
-      \field{labelalpha}{Van}
       \field{sortinit}{9}
       \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
