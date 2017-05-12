@@ -2160,12 +2160,11 @@
     <bcf:citekey order="20">Cappellari2011</bcf:citekey>
     <bcf:citekey order="21">Pedregosa2012</bcf:citekey>
     <bcf:citekey order="22">sklearn</bcf:citekey>
-    <bcf:citekey order="23">sklearn</bcf:citekey>
-    <bcf:citekey order="24">Krajnovic2013</bcf:citekey>
-    <bcf:citekey order="25">Emsellem2011</bcf:citekey>
-    <bcf:citekey order="26">simmons_2016</bcf:citekey>
-    <bcf:citekey order="27">Krajnovic2013</bcf:citekey>
-    <bcf:citekey order="28">vanschoren</bcf:citekey>
+    <bcf:citekey order="23">Krajnovic2013</bcf:citekey>
+    <bcf:citekey order="24">Emsellem2011</bcf:citekey>
+    <bcf:citekey order="25">simmons_2016</bcf:citekey>
+    <bcf:citekey order="26">Krajnovic2013</bcf:citekey>
+    <bcf:citekey order="27">vanschoren</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="ynt/global/" type="entry" sortscheme="ynt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
