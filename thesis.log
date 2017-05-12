@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  12 MAY 2017 10:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  12 MAY 2017 13:22
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1023,27 +1023,31 @@ Chapter 3.
 [6
 
 ]
+! You can't use `\eqno' in math mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.14 \end{equation}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
-! LaTeX Error: \begin{document} ended by \end{quote}.
+! Missing } inserted.
+<inserted text> 
+                }
+l.14 \end{equation}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 \end{quote}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.31 \end{quote}
-                
-Things are pretty mixed up, but I think the worst is over.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[7]
+ [7]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1051,65 +1055,58 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \begin{table}[H]
+l.26 \begin{table}[H]
                      
 Option `H' ignored and `p' used.
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 68--68
+Underfull \hbox (badness 1546) in paragraph at lines 52--52
 []\T1/cmr/m/n/12 Uses the gini im-pu-rity as out-lined
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 68--68
+Underfull \hbox (badness 3009) in paragraph at lines 52--52
 []\T1/cmr/m/n/12 The max-i-mum depth of the tree,
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 68--68
+Underfull \hbox (badness 1859) in paragraph at lines 52--52
 \T1/cmr/m/n/12 til all leaves are pure, i.e. con-
  []
 
 
-Overfull \hbox (20.31537pt too wide) in paragraph at lines 46--69
+Overfull \hbox (20.31537pt too wide) in paragraph at lines 30--53
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-[9]
-Underfull \vbox (badness 2359) has occurred while \output is active []
-
- [10]
-<images/scatter_matrix_slow_rots_rotlabels.png, id=88, 1233.6489pt x 623.6901pt
+[8] [9]
+<images/scatter_matrix_slow_rots_rotlabels.png, id=85, 1233.6489pt x 623.6901pt
 >
 File: images/scatter_matrix_slow_rots_rotlabels.png Graphic file (type png)
  <use images/scatter_matrix_slow_rots_rotlabels.png>
 Package pdftex.def Info: images/scatter_matrix_slow_rots_rotlabels.png used on 
-input line 78.
+input line 62.
 (pdftex.def)             Requested size: 702.79189pt x 355.30719pt.
 
-<images/scatter_matrix_fast_rots_rotlabels.png, id=89, 1233.6489pt x 623.6901pt
+<images/scatter_matrix_fast_rots_rotlabels.png, id=86, 1233.6489pt x 623.6901pt
 >
 File: images/scatter_matrix_fast_rots_rotlabels.png Graphic file (type png)
  <use images/scatter_matrix_fast_rots_rotlabels.png>
 Package pdftex.def Info: images/scatter_matrix_fast_rots_rotlabels.png used on 
-input line 84.
+input line 68.
 (pdftex.def)             Requested size: 702.79189pt x 355.30719pt.
 ) (results/results.tex
-[11] [12 <./images/scatter_matrix_slow_rots_rotlabels.png>] [13 <./images/scatt
+[10] [11 <./images/scatter_matrix_slow_rots_rotlabels.png>] [12 <./images/scatt
 er_matrix_fast_rots_rotlabels.png>]
 Chapter 4.
-<images/DT_lamre.png, id=101, 1233.6489pt x 623.6901pt>
+<images/DT_lamre.png, id=98, 1233.6489pt x 623.6901pt>
 File: images/DT_lamre.png Graphic file (type png)
 
 <use images/DT_lamre.png>
 Package pdftex.def Info: images/DT_lamre.png used on input line 15.
 (pdftex.def)             Requested size: 483.69687pt x 244.54195pt.
 
-<images/DTSuccessBar.png, id=102, 939.51pt x 451.6875pt>
+<images/DTSuccessBar.png, id=99, 939.51pt x 451.6875pt>
 File: images/DTSuccessBar.png Graphic file (type png)
 
 <use images/DTSuccessBar.png>
@@ -1117,15 +1114,15 @@ Package pdftex.def Info: images/DTSuccessBar.png used on input line 23.
 (pdftex.def)             Requested size: 483.69687pt x 232.54239pt.
 
 
-LaTeX Warning: Reference `zerodt' on page 14 undefined on input line 27.
+LaTeX Warning: Reference `zerodt' on page 13 undefined on input line 27.
 
-<images/zerodt.png, id=103, 1233.6489pt x 623.6901pt>
+<images/zerodt.png, id=100, 1233.6489pt x 623.6901pt>
 File: images/zerodt.png Graphic file (type png)
  <use images/zerodt.png>
 Package pdftex.def Info: images/zerodt.png used on input line 30.
 (pdftex.def)             Requested size: 483.69687pt x 244.54195pt.
 
-<images/norm_conf_mat_DT_normalised.png, id=104, 578.16pt x 431.4519pt>
+<images/norm_conf_mat_DT_normalised.png, id=101, 578.16pt x 431.4519pt>
 File: images/norm_conf_mat_DT_normalised.png Graphic file (type png)
 
 <use images/norm_conf_mat_DT_normalised.png>
@@ -1133,7 +1130,7 @@ Package pdftex.def Info: images/norm_conf_mat_DT_normalised.png used on input l
 ine 39.
 (pdftex.def)             Requested size: 483.69687pt x 360.95561pt.
 
-<images/multiplot_correctincorrect_2d_withcol.png, id=105, 1233.6489pt x 623.69
+<images/multiplot_correctincorrect_2d_withcol.png, id=102, 1233.6489pt x 623.69
 01pt>
 File: images/multiplot_correctincorrect_2d_withcol.png Graphic file (type png)
  <use images/multiplot_correctincorrect_2d_withcol.png>
@@ -1141,26 +1138,26 @@ Package pdftex.def Info: images/multiplot_correctincorrect_2d_withcol.png used
 on input line 48.
 (pdftex.def)             Requested size: 483.69687pt x 244.54195pt.
 
-<images/norm_conf_mat_DTandSersic_normalised.png, id=106, 578.16pt x 431.4519pt
+<images/norm_conf_mat_DTandSersic_normalised.png, id=103, 578.16pt x 431.4519pt
 >
 File: images/norm_conf_mat_DTandSersic_normalised.png Graphic file (type png)
  <use images/norm_conf_mat_DTandSersic_normalised.png>
 Package pdftex.def Info: images/norm_conf_mat_DTandSersic_normalised.png used o
 n input line 55.
 (pdftex.def)             Requested size: 483.69687pt x 360.95561pt.
- [14
+ [13
 
-] [15 <./images/DT_lamre.png> <./images/DTSuccessBar.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+] [14 <./images/DT_lamre.png> <./images/DTSuccessBar.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16 <./images/zerodt.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15 <./images/zerodt.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -1168,8 +1165,8 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
- [17 <./images/norm_conf_mat_DT_normalised.png>]) [18 <./images/multiplot_corre
-ctincorrect_2d_withcol.png>] [19 <./images/norm_conf_mat_DTandSersic_normalised
+ [16 <./images/norm_conf_mat_DT_normalised.png>]) [17 <./images/multiplot_corre
+ctincorrect_2d_withcol.png>] [18 <./images/norm_conf_mat_DTandSersic_normalised
 .png>]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 40.
 
@@ -1181,7 +1178,7 @@ Overfull \hbox (4.4018pt too wide) in paragraph at lines 42--42
 s-tro-nom-i-cal So-ci-ety \T1/cmr/m/n/12 379.2 (Jan. 2007), 401:417.
  []
 
-[20
+[19
 
 ]
 Overfull \hbox (0.38171pt too wide) in paragraph at lines 42--42
@@ -1189,7 +1186,7 @@ Overfull \hbox (0.38171pt too wide) in paragraph at lines 42--42
  http://www.808multimedia.com/winnt/kernel.htm. Ac-
  []
 
-[21] (thesis.aux)
+[20] (thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1201,10 +1198,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20899 strings out of 493333
- 400220 string characters out of 3139191
- 786879 words of memory out of 3000000
- 24155 multiletter control sequences out of 15000+200000
+ 20898 strings out of 493333
+ 400215 string characters out of 3139191
+ 786871 words of memory out of 3000000
+ 24154 multiletter control sequences out of 15000+200000
  30960 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,16n,45p,10405b,1364s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1233,9 +1230,9 @@ ic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
 y8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.
 pfb>
-Output written on thesis.pdf (31 pages, 978898 bytes).
+Output written on thesis.pdf (30 pages, 975950 bytes).
 PDF statistics:
- 621 PDF objects out of 1000 (max. 8388607)
+ 617 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

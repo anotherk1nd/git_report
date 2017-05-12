@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {3.1}The scikit-learn library}{6}
 \contentsline {section}{\numberline {3.2}Decision Trees}{6}
 \contentsline {subsection}{\numberline {3.2.1}Parameters}{8}
-\contentsline {section}{\numberline {3.3}Data \& Formatting}{10}
-\contentsline {subsection}{\numberline {3.3.1}ATLAS\textsuperscript {3D}}{10}
-\contentsline {chapter}{\numberline {4}Results \& Conclusions}{14}
-\contentsline {section}{\numberline {4.1}ATLAS\textsuperscript {3D}}{14}
+\contentsline {section}{\numberline {3.3}Data \& Formatting}{8}
+\contentsline {subsection}{\numberline {3.3.1}ATLAS\textsuperscript {3D}}{8}
+\contentsline {chapter}{\numberline {4}Results \& Conclusions}{13}
+\contentsline {section}{\numberline {4.1}ATLAS\textsuperscript {3D}}{13}

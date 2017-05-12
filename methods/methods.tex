@@ -3,38 +3,22 @@
 \section{The scikit-learn library}It was chosen to implement algorithms from the scikit-learn module of the python language since it "exposes a wide variety of machine learning algorithms, both supervised and unsupervised, using a consistent, task-oriented interface, thus enabling easy comparison of methods for a given application" \cite{Pedregosa2012}. This allowed several different algorithms to be implemented within the same environment and gain meaningful results with minimal prior coding and analysis. The algorithms initially chosen was decision trees (DT's) since these allow both regression and classification analysis, and are known as 'white boxes' due to their relatively transparent process whereby the mechanics of training could be evaluated more readily. 
 
 \section{Decision Trees}
-Different machine learning algorithms use different statistical tests in order to evaluate data and make inferences. DT's emulate a logical classification procedure similar to that used in biology to identify species. Starting from the full dataset a series of binary if-then tests are consequentially performed and data split into 2 branches continuously until a final statistical criterion is satisfied: the sklearn decision tree uses the gini impurity to evaluate the success. The algorithm does this by splitting the data into two branches by choosing the split that minimise the gini index, defined as:
+Different machine learning algorithms use different statistical procedures in order to evaluate data and make inferences. DT's emulate a logical classification procedure similar to that used in biology to identify species. Starting from the full dataset a series of binary if-then tests are consequentially performed and data split into 2 branches continuously until a final statistical criterion is satisfied. The algorithm does this by arbitrarily choosing a value that splits the parameter space in 2, forming a node and 2 branches. A statistical test (purity measure), either Gini impurity or entropy of information gain, is then applied to the 2 child datasets separately to evaluate how correlated the members within each child are, and the resulting values summed proportionately to find the total purity. Decision trees then recurse through the parameter space in a greedy fashion to find those that maximise the purity, and selects this for the split. Once found, the process repeats on each of the child datasets until a predefined stopping criterion is fulfilled, producing a leaf at the end of each branch. This results in a series of rules that can be applied to unseen data in an attempt to reproduce the classifications.\
+The Gini impurity is defined as:
 \begin{equation}
-H(X_m) = \sum_k p_{mk} (1 - p_{mk})
+H(X_m) = \sum_k p_{mk} (1 - p_{mk}),
 \end{equation}
-arbitrarily choosing a value that splits the parameter space in 2, forming a node and 2 branches. The 
-
-\iffalse
-This is mathematically formulated as follows.\begin{quote}Given training vectors $x_i \in R^n, i=1,...$, l and a label vector $y \in R^l$, a decision tree recursively partitions the space such that the samples with the same labels are grouped together. Let the data at node m be represented by Q. For each candidate split $\theta = (j, t_m)$ consisting of a feature j and threshold $t_{m}$, partition the data into $Q_{left}(\theta)$ and $Q_{right}(\theta)$ subsets.
-\fi
-
-Sklearn can use the Gini impurity or the entropy as the determining how to split the tree. The default method of Gini impurity was used here. 
+and the entropy defined as:
 \begin{equation}
-Q_{left}(\theta) = {(x, y) | x_j <= t_m}\end{equation}
-\begin{equation}
-Q_{right}(\theta) = Q \setminus Q_{left}(\theta)
+H(X_m) = -\sum_k p_{mk} \log{ p_{mk}, 
 \end{equation}
-The impurity at m is computed using an impurity function H(), the choice of which depends on the task being solved (classification or regression)
+where the target classification takes on value $0,1,..,k-1$ for node $m$, representing a region $R_{m}$ with $N_{m}$ observations. For a single input variable $x_{i}$ with class label $y_{i}$ (i.e. fast/slow rotation), the proportion of class $k$ observations in node $m$ is given by:
 \begin{equation}
-G(Q, \theta) = \frac{n_{left}}{N_m} H(Q_{left}(\theta)) + \frac{n_{right}}{N_m} H(Q_{right}(\theta))
+p_{mk} = 1/N_{m} \sum_{x_{i}\subset{R_{m}}} I(y_{i}=k)
 \end{equation}
-Select the parameters that minimises the impurity
-\begin{equation}
-\theta^{*} = \operatorname{argmin}_\theta G(Q, \theta)
-\end{equation}
-Recurse for subsets $Q_{left}(\theta^*)$ and $Q_{right}(\theta^*)$ until the maximum allowable depth is reached, $N_m < \min_{samples}$ or $N_m = 1$.
-\end{quote}
-\cite{sklearn}
-The impurity measure used is the gini impurity:
-\begin{equation}
-H(X_m) = \sum_k p_{mk} (1 - p_{mk})
-\end{equation}
-This process aims to form 2 child sets that are more statistically correlated with each other than the parent. The backend of the SKlearn modules were however not evaluated directly but implemented na\"{i}vely.  The parameters were initialised to their defaults as described in the documentation\cite{sklearn}. Using the modules themselves required elementary use of python to pass the module arrays of necessary values. Implementation proceeded in 2 stages once the data had been suitably formatted. The data was arbitrarily split into 2 groups, a training and a test set, based solely on their position within the results: they were ordered according to their LEDA classification and occupied different locations of the sky, and so should not have any bias. For classification, the training set was passed to the module as a list with each item holding the feature value (i.e. S\'{e}rsic index) or a list of feature values if more than one feature used, and target variable (i.e. fast/slow rotator classification, spin parameter value). A function was output that incorporated the learned rules which was then applied to the test data set resulting in an array of predicted values that could be measured against the known values.\
+In the case of entropy, the purity is measured in terms of entropy gain, defined as the entropy of the parent minus the entropy of the child.\\
+The benefits of decision trees are that they are more interpretable, employing a 'white box' approach, compared to other algorithms (i.e. neural nets) that have a relatively opaque process. They require little data preparation compared to others that need, for example normalisation, and are well suited to binary decision classes as well as being fast.
+The backend of the SKlearn modules were not evaluated directly and implemented na\"{i}vely. The parameters were initialised to their defaults as described in the documentation\cite{sklearn}. Using the modules themselves required elementary use of python to pass the module arrays of necessary values. Implementation proceeded in 2 stages once the data had been suitably formatted. The data was arbitrarily split into 2 groups, a training and a test set, based solely on their position within the results: they were ordered according to their LEDA classification and occupied different locations of the sky, and so should not have any bias. For classification, the training set was passed to the module as a list with each item holding the feature value (i.e. S\'{e}rsic index) or a list of feature values if more than one feature used, and target variable (i.e. fast/slow rotator classification, spin parameter value). A function was output that incorporated the learned rules which was then applied to the test data set resulting in an array of predicted values that could be measured against the known values.\
 The algorithm was run as a classification problem due to the more simple analysis of success and errors. This is because it allowed the success to be evaluated in a more elementary fashion, without recourse to analysing more complex error distributions.
 Decision tree and random forest methods were then applied and the parameters adjusted manually to achieve optimal results. The parameters evaluated are outlined in the following section.
 \subsection{Parameters}
