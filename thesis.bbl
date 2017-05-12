@@ -91,8 +91,8 @@
       \field{title}{The SAURON project IX. A kinematic classification for early-type galaxies}
       \field{volume}{379}
       \field{year}{2007}
-      \field{pages}{401:417}
-      \range{pages}{-1}
+      \field{pages}{401\bibrangedash 417}
+      \range{pages}{17}
       \verb{doi}
       \verb 10.1111/j.1365-2966.2007.11752.x
       \endverb
@@ -941,11 +941,49 @@
       \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{1.10. Decision Trees \x{fffd}\x{fffd}\x{fffd} scikit-learn 0.18.1 documentation}
+      \field{journaltitle}{scikit-learn 0.18.1 documentation}
       \field{title}{1.10. Decision Trees}
       \verb{url}
       \verb http://scikit-learn.org/stable/modules/tree.html#tree
       \endverb
+    \endentry
+    \entry{forestsk}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e68ec1e0f408f645d33fd38e2cb09653}{%
+           family={SKDevelopers},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e68ec1e0f408f645d33fd38e2cb09653}
+      \strng{fullhash}{e68ec1e0f408f645d33fd38e2cb09653}
+      \strng{authornamehash}{e68ec1e0f408f645d33fd38e2cb09653}
+      \strng{authorfullhash}{e68ec1e0f408f645d33fd38e2cb09653}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{scikit-learn 0.18.1 documentation}
+      \field{title}{Ensemble Methods}
+      \verb{url}
+      \verb http://scikit-learn.org/stable/modules/ensemble.html#forest
+      \endverb
+    \endentry
+    \entry{ofit}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=88183b946cc5f0e8c96b2e66e1c74a7e}{%
+           family={Unknown},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{fullhash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{authornamehash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \strng{authorfullhash}{88183b946cc5f0e8c96b2e66e1c74a7e}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://kevinbinz.com/tag/overfitting/}
+      \field{note}{Accessed: 2017-12-05}
+      \field{title}{Overfitting Example}
     \endentry
     \entry{SDSS}{misc}{}
       \name{author}{1}{}{%
