@@ -17,7 +17,7 @@ where the target classification takes on value $0,1,..,k-1$ for node $m$, repres
 p_{mk} = 1/N_{m} \sum_{x_{i}\subset{R_{m}}} I(y_{i}=k)
 \end{equation}
 In the case of entropy, the purity is measured in terms of entropy gain, defined as the entropy of the parent minus the entropy of the child.\\
-The benefits of decision trees are that they are more interpretable, employing a 'white box' approach, compared to other algorithms (i.e. neural nets) that have a relatively opaque process. They require little data preparation compared to others that need, for example, normalisation, and are well suited to binary decision classes, as well as being fast. They are also able to handle trends of different order (linear, polynomial etc.). Disadvantages are that they can result in overfitting, where the rules found are overly complex and specific to the training set and do not generalise to unseen data. 
+The benefits of decision trees are that they are more interpretable, employing a 'white box' approach, compared to other algorithms (i.e. neural nets) that have a relatively opaque process. They require little data preparation compared to others that need, for example, normalisation, and are well suited to binary decision classes, as well as being fast. They are also able to handle trends of different order (linear, polynomial etc.). Disadvantages are that they can result in overfitting (an example of which can be seen in \ref{fig:overfit}), where the rules found are overly complex and specific to the training set and do not generalise to unseen data. 
 \begin{figure}[h]
 	\caption{Demonstration of how the same data can be fit in different ways. The example on the left sacrifices some purity for simplicity, but represents the global trend more accurately\cite{ofit}.}
 	\centering
@@ -29,7 +29,7 @@ The backend of the SKlearn modules were not evaluated directly and implemented n
 The algorithm was run as a classification problem due to the more simple analysis of success and errors. This is because it allowed the success to be evaluated in a more elementary fashion, without recourse to analysing more complex error distributions.
 Decision tree and random forest methods were then applied and the parameters adjusted manually to achieve optimal results.
 \subsection{Parameters}
-SKLearn allows several parameters to be adjusted manually in order to maximise the efficiency of the models, and these are particular to each.
+SKLearn allows several parameters (outlined in \ref{tab:dectreeparams}) to be adjusted manually in order to maximise the efficiency of the models, and these are particular to each algorithm.
 \begin{table}[H]
 \caption {SKLearn Decision Tree Parameters} \label{tab:dectreeparams}
 \renewcommand{\arraystretch}{1.0} % this reduces the vertical spacing between rows
