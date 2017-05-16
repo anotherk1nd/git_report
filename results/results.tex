@@ -4,11 +4,32 @@
 \label{ch:results}
 
 \section{ATLAS\textsuperscript{3D}}
-Initially, the algorithm was trained using the $\lambda_{Re}$ to predict the FS classification since they were related directly. Promisingly, the classifier was 100\% successful in its predictions. Training was then performed using the Se\'rsic index of the single fit, n, and achieved success of 71\% which exactly matched the probability of randomly selecting the answer given by the binomial probability distribution which is necessary due to the binomial nature of the outcome with differing sizes of the two populations, given by\cite{simmons_2016}:
+Initially, the algorithm was trained using the $\lambda_{Re}$ to predict the FS classification since they were related directly. Promisingly, the classifier was 100\% successful in its predictions. Training was then performed using the Se\'rsic index of the single fit, n, and achieved success of 71\%.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{norm_conf_mat_Sersic_normalised.png}
+	\caption{Confusion Matric for predictions based on D/T and Se\'rsic Index.
+	}
+	\label{fig:confmatDT}
+\end{figure}
+We can estimate how the model succeeded for the separate populations compared to that predicted by the binomial probability distribution which is necessary due to the binomial nature of the outcome with differing sizes of the two populations, given by\cite{simmons_2016}:
 \begin{equation}
 P(k,n) = \binom{n}{k}p^{k}q^{n-k}
 \end{equation}
-where $n$ is the number of trials, $k$ is the number of successes, $n-k$ is the number of failures, $p$ is the probability of success in one trial and $q=1-p$ is probability of failure in one trial. This indicates that the algorithm failed in its attempt to predict the rotation based on se\'rsic index alone. This is surprising given the morphological importance of this parameter, but maybe due to...\\
+where $n$ is the number of trials, $k$ is the number of successes, $n-k$ is the number of failures, $p$ is the probability of success in one trial and $q=1-p$ is probability of failure in one trial. Since the binomial distribution does not take account of the order of the successes, we adapt the binomial formula by removing the permutations factor:
+\begin{equation}
+P(k,n) = p^{k}q^{n-k}
+\end{equation}
+By treating the 2 populations separately we can therefore define success as a correct classification, and the probabilities are given by the overall relative number proportions of the 2 populations, i.e.,
+\begin{equation}
+P_{f}(k_{f},n_{f}) = p_{f}^{k_{f}}q_{f}^{n_{f}-k_{f}}
+\end{equation}
+and,
+\begin{equation}
+P_{s}(k_{s},n_{s}) = p_{s}^{k_{s}}q_{s}^{n_{s}-k_{s}}
+\end{equation}
+CHANGED SHIT HERE, MAYBE FIX OR GIVE UP
+where the subscripts denote the 2 populations.This gives a \approx 2\% probability of producing these results based on a random guess for slow rotators and a negligible probability for fast rotators, suggesting a significant improvement.\
 When we look at the D/T dependence of the $\lambda_{Re}$ value, we see a more promising separation of the two populations, with a value of D/T $\approx 0.28$ producing a low level of impurity. This parameter was identified as the most promising by \cite{Krajnovic2013}[p1790].
 \begin{figure}[h]
 	\centering
@@ -33,15 +54,7 @@ The success rate for just these galaxies is $\approx$77\% which is more than tha
 	\label{fig:zerodt}
 \end{figure}
 The algorithm benefited from the fact that only $\approx$10\% of the galaxies with no disk in the test set were slow rotators. If the choice was made randomly, the success would be $\approx$15\%, and so represents a significant improvement, but would hardly require such statistical learning methods to make the conclusion that if there is no disk it is most likely a fast rotator.
-This is emphasised by the computed confusion matrix that analyses the number of true positives, false positives, true negatives and false negatives:
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=\textwidth]{norm_conf_mat_DT_normalised.png}
-	\caption{Confusion Matrix for predictions based on D/T.
-	}
-	\label{fig:confmatDT}
-\end{figure}
-Again, we see a very high success rate for fast rotators at around 97\%, but this undermined by the almost equally high misclassification error for slow rotators.
+
 The algorithm was then trained using both D/T and Se\'rsic index of the single fit by passing the features as an $n\times 2$ matrix, resulting in a success rate of 75\%, exceeding expectations based on random guess alone slightly, but is less than what was achieved using D/T alone. The plots suggest that the algorithm is predicting slow rotators slightly more often rather than blindly assuming all galaxies are fast rotators, but it only successfully predicts a slow rotator once.
 \begin{figure}[h!]
 	\centering

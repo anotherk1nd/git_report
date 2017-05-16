@@ -8,9 +8,9 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Scatter matrix of the slow rotator population}}{12}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Scatter matrix of the fast rotator population}}{13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces The separation between the two populations is more pronounced here. The galaxies with D/T = 0 have no exponential discs. }}{15}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Prediction success for galaxies with D/T $\lesssim $ 0.05.}}{15}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Investigating the results where D/T$\lesssim $0.05. We see that the algorithm predicts galaxies to be universally fast rotators. }}{16}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Confusion Matrix for predictions based on D/T. }}{17}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Confusion Matric for predictions based on D/T and Se\'rsic Index. }}{15}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The separation between the two populations is more pronounced here. The galaxies with D/T = 0 have no exponential discs. }}{16}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Prediction success for galaxies with D/T $\lesssim $ 0.05.}}{16}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Investigating the results where D/T$\lesssim $0.05. We see that the algorithm predicts galaxies to be universally fast rotators. }}{17}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Evaluating the success of decision trees with 2 variables, se\'rsic index and D/T. The markers are colour coded to be magenta for fast rotators and blue for slow rotators. }}{18}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Confusion Matric for predictions based on D/T and Se\'rsic Index. }}{19}

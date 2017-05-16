@@ -1,0 +1,29 @@
+the sklearn decision tree uses the gini impurity to evaluate the success. 
+The algorithm does this by splitting the data into two branches by choosing the split that minimise the gini index, defined as:
+
+This is mathematically formulated as follows.\begin{quote}Given training vectors $x_i \in R^n, i=1,...$, l and a label vector $y \in R^l$, a decision tree recursively partitions the space such that the samples with the same labels are grouped together. Let the data at node m be represented by Q. For each candidate split $\theta = (j, t_m)$ consisting of a feature j and threshold $t_{m}$, partition the data into $Q_{left}(\theta)$ and $Q_{right}(\theta)$ subsets.
+\fi
+
+Sklearn can use the Gini impurity or the entropy as the determining how to split the tree. The default method of Gini impurity was used here. 
+\begin{equation}
+Q_{left}(\theta) = {(x, y) | x_j <= t_m}\end{equation}
+\begin{equation}
+Q_{right}(\theta) = Q \setminus Q_{left}(\theta)
+\end{equation}
+The impurity at m is computed using an impurity function H(), the choice of which depends on the task being solved (classification or regression)
+\begin{equation}
+G(Q, \theta) = \frac{n_{left}}{N_m} H(Q_{left}(\theta)) + \frac{n_{right}}{N_m} H(Q_{right}(\theta))
+\end{equation}
+Select the parameters that minimises the impurity
+\begin{equation}
+\theta^{*} = \operatorname{argmin}_\theta G(Q, \theta)
+\end{equation}
+Recurse for subsets $Q_{left}(\theta^*)$ and $Q_{right}(\theta^*)$ until the maximum allowable depth is reached, $N_m < \min_{samples}$ or $N_m = 1$.
+\end{quote}
+\cite{sklearn}
+The impurity measure used is the gini impurity:
+\begin{equation}
+H(X_m) = \sum_k p_{mk} (1 - p_{mk})
+\end{equation}
+
+\iffalse
