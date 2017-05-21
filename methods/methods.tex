@@ -18,19 +18,18 @@ p_{mk} = 1/N_{m} \sum_{x_{i}\subset{R_{m}}} I(y_{i}=k)
 \end{equation}
 In the case of entropy, the purity is measured in terms of entropy gain, defined as the entropy of the parent minus the entropy of the child.\\
 The benefits of decision trees are that they are more interpretable, employing a 'white box' approach, compared to other algorithms (i.e. neural nets) that have a relatively opaque process. They require little data preparation compared to others that need, for example, normalisation, and are well suited to binary decision classes, as well as being fast. They are also able to handle trends of different order (linear, polynomial etc.). Disadvantages are that they can result in overfitting (an example of which can be seen in \ref{fig:overfit}), where the rules found are overly complex and specific to the training set and do not generalise to unseen data. 
-\begin{figure}[h]
-	\caption{Demonstration of how the same data can be fit in different ways. The example on the left sacrifices some purity for simplicity, but represents the global trend more accurately\cite{ofit}.}
+\begin{figure}[t]
 	\centering
 	\includegraphics[width=\textwidth]{overfit.png}
+	\caption{Demonstration of how the same data can be fit in different ways. The example on the left sacrifices some purity for simplicity, but represents the global trend more accurately\cite{ofit}.}
 	\label{fig:overfit}
 \end{figure}
 There are, however, methods to minimise this by specifying the minimum number of samples in a subset required to form a branch, or the maximum number of nodes allowed (pruning methods, which look to minimise this affect after the tree has been trained, are not supported in SKLearn). Another problem lies in the fact that locally optimal decisions are made at each point, which may fail to recognise more global patterns. Furthermore, because of the hierarchical nature of data fitting, a small change in the data can result in drastically different results as the rule changes promulgate through the iterative decision process.\
-The backend of the SKlearn modules were not evaluated directly and implemented na\"{i}vely. The parameters were initialised to their defaults as described in the documentation\cite{sklearn}. Using the modules themselves required elementary use of python to pass the module arrays of necessary values. Implementation proceeded in 2 stages once the data had been suitably formatted. The data was arbitrarily split into 2 groups, a training and a test set, based solely on their position within the results: they were ordered according to their LEDA classification and occupied different locations of the sky, and so should not have any bias. For classification, the training set was passed to the module as a list with each item holding the feature value (i.e. S\'{e}rsic index) or a list of feature values if more than one feature used, and target variable (fast/slow rotator classification). A function was output that incorporated the learned rules which was then applied to the test data set resulting in an array of predicted values that could be measured against the known values.\
-The algorithm was run as a classification problem due to the more simple analysis of success and errors. This is because it allowed the success to be evaluated in a more elementary fashion, without recourse to analysing more complex error distributions.
-Decision tree and random forest methods were then applied and the parameters adjusted manually to achieve optimal results.
+The backend of the SKlearn modules were not evaluated directly and implemented na\"{i}vely. The parameters were initialised to their defaults as described in the documentation\cite{sklearn}. Using the modules themselves required elementary use of python to pass the module arrays of necessary values. Implementation proceeded in 2 stages once the data had been suitably formatted. The data was arbitrarily split into 2 groups, a training and a test set, based solely on their position within the results: they were ordered according to their LEDA classification and occupied different locations of the sky, and so should not have any bias. For classification, the training set was passed to the module as a list with each item holding the feature value, (i.e. S\'{e}rsic index) or a list of feature values when more than one feature used, and target variable (fast/slow rotator classification). A function was output that incorporated the learned rules which was then applied to the test data set resulting in an array of predicted values that could be measured against the known values.\
+The algorithm was run as a classification problem due to the more simple analysis of success and errors, without recourse to analysing more complex error distributions.
 \subsection{Parameters}
-SKLearn allows several parameters (outlined in \ref{tab:dectreeparams}) to be adjusted manually in order to maximise the efficiency of the models, and these are particular to each algorithm.
-\begin{table}[H]
+SKLearn allows several parameters (outlined in Table \ref{tab:dectreeparams}) to be adjusted manually in order to maximise the efficiency of the models, and these are particular to each algorithm.
+\begin{table}[!h]
 \caption {SKLearn Decision Tree Parameters} \label{tab:dectreeparams}
 \renewcommand{\arraystretch}{1.0} % this reduces the vertical spacing between rows
 \linespread{1.0}\selectfont\centering
@@ -58,10 +57,6 @@ SKLearn allows several parameters (outlined in \ref{tab:dectreeparams}) to be ad
 	\hline
 \end{tabu}
 \end{table}
-
-\section{Random Forests}
-Random forests try to solve the problems of overfitting and sensitive dependence on training data associated with decision trees by effectively constructing multiple trees from the same dataset and averaging the results. To do so, it takes a random sample with replacement, where chosen observations are available for reselection such that a number of the observations in each sample are repeated. A decision tree is then constructed for each of these samples, and the prediction of the ensemble is given as the averaged prediction of the individual trees\cite{forestsk}.
-
 
 \section{Data \& Formatting}
 \subsection{ATLAS\textsuperscript{3D}}

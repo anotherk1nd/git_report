@@ -28,10 +28,9 @@ and,
 \begin{equation}
 P_{s}(k_{s},n_{s}) = p_{s}^{k_{s}}q_{s}^{n_{s}-k_{s}}
 \end{equation}
-CHANGED SHIT HERE, MAYBE FIX OR GIVE UP
-where the subscripts denote the 2 populations.This gives a \approx 2\% probability of producing these results based on a random guess for slow rotators and a negligible probability for fast rotators, suggesting a significant improvement.\
-When we look at the D/T dependence of the $\lambda_{Re}$ value, we see a more promising separation of the two populations, with a value of D/T $\approx 0.28$ producing a low level of impurity. This parameter was identified as the most promising by \cite{Krajnovic2013}[p1790].
-\begin{figure}[h]
+where the subscripts denote the 2 populations.This gives a $\approx$ 2\% probability of producing these results based on a random guess for slow rotators and a negligible probability for fast rotators, suggesting a significant improvement.\
+When we look at the D/T dependence of the $\lambda_{Re}$ value, we see a more promising separation of the two populations, with a value of D/T $\approx 0.28$ producing a low level of impurity. This parameter was identified as the most promising by \cite{Krajnovic2013}.
+\begin{figure}[ht]
 	\centering
 	\includegraphics[width=\textwidth]{DT_lamre.png}
 	\caption{The separation between the two populations is more pronounced here. The galaxies with D/T = 0 have no exponential discs.
@@ -45,7 +44,6 @@ The algorithm was then trained using D/T, improving the success rate to 81\%. In
 	\caption{Prediction success for galaxies with D/T $\lesssim$ 0.05.}
 	\label{fig:dtbar}
 \end{figure}
-The success rate for just these galaxies is $\approx$77\% which is more than that expected from the binomial distribution. However, the apparent success is undermined when we plot the results for just these galaxies in \ref{zerodt}.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{zerodt.png}
@@ -53,9 +51,9 @@ The success rate for just these galaxies is $\approx$77\% which is more than tha
 	}
 	\label{fig:zerodt}
 \end{figure}
+The success rate for just these galaxies is $\approx$77\% which is more than that expected from the binomial distribution. However, the apparent success is undermined when we plot the results for just these galaxies in \ref{fig:zerodt}.
 The algorithm benefited from the fact that only $\approx$10\% of the galaxies with no disk in the test set were slow rotators. If the choice was made randomly, the success would be $\approx$15\%, and so represents a significant improvement, but would hardly require such statistical learning methods to make the conclusion that if there is no disk it is most likely a fast rotator.
-
-The algorithm was then trained using both D/T and Se\'rsic index of the single fit by passing the features as an $n\times 2$ matrix, resulting in a success rate of 75\%, exceeding expectations based on random guess alone slightly, but is less than what was achieved using D/T alone. The plots suggest that the algorithm is predicting slow rotators slightly more often rather than blindly assuming all galaxies are fast rotators, but it only successfully predicts a slow rotator once.
+The algorithm was then trained using both D/T and Se\'rsic index of the single fit by passing the features as an $n\times 2$ matrix, resulting in a success rate of 75\%, exceeding expectations based on random guess alone slightly, but is less than what was achieved using D/T alone. 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{multiplot_correctincorrect_2d_withcol.png}
@@ -70,6 +68,7 @@ The algorithm was then trained using both D/T and Se\'rsic index of the single f
 	}
 	\label{fig:confmatDT}
 \end{figure}
+The plots \ref{fig:correctvsincorrect} and \ref{fig:confmatDT} suggest that the algorithm is predicting slow rotators slightly more often rather than blindly assuming all galaxies are fast rotators, but it only successfully predicts a slow rotator once.
 These results suggest that the use of decision trees with parameters initialised to their defaults are not very promising. However, there are a large number of parameters, as outlined in the preceding sections, that can be tuned to maximise the efficiency of the classifier. SKlearn has the inbuilt function GridSearchCV that performs an exhaustive search over specified parameter values for an estimator. To avoid difficulties posed by a limited dataset size, the algorithm uses a k-fold cross-validation where:
 \begin{quotation}
 	The original sample is randomly partitioned into k equal size subsamples. Of the k subsamples, a single subsample is retained as the validation data for testing the model, and the remaining k-1 subsamples are used as training data. The cross-validation process is then repeated k times (the folds), with each of the k subsamples used exactly once as the validation data. The k results from the folds can then be averaged (or otherwise combined) to produce a single estimation. The advantage of this method is that all observations are used for both training and validation, and each observation is used for validation exactly once.\cite{vanschoren}

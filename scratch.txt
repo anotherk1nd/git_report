@@ -1,3 +1,11 @@
+which exactly matched the probability of randomly selecting the answer given by 
+
+
+
+
+
+
+
 the sklearn decision tree uses the gini impurity to evaluate the success. 
 The algorithm does this by splitting the data into two branches by choosing the split that minimise the gini index, defined as:
 

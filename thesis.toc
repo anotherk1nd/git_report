@@ -1,19 +1,17 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \contentsline {chapter}{Abstract}{i}
-\contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {section}{\numberline {1.1}Contributions}{1}
-\contentsline {chapter}{\numberline {2}Background Theory}{2}
-\contentsline {section}{\numberline {2.1}Introduction}{2}
-\contentsline {section}{\numberline {2.2}Variations of the Spin Parameter}{4}
-\contentsline {section}{\numberline {2.3}S\'ersic Index of the Single Fit and Bulge Component, n and $n_{b}$}{5}
-\contentsline {section}{\numberline {2.4}Disk-to-Total Light Ratio, D/T}{5}
-\contentsline {section}{\numberline {2.5}ATLAS$^{3D}$}{5}
-\contentsline {chapter}{\numberline {3}Methods}{6}
-\contentsline {section}{\numberline {3.1}The scikit-learn library}{6}
-\contentsline {section}{\numberline {3.2}Decision Trees}{6}
-\contentsline {subsection}{\numberline {3.2.1}Parameters}{9}
-\contentsline {section}{\numberline {3.3}Random Forests}{9}
-\contentsline {section}{\numberline {3.4}Data \& Formatting}{9}
-\contentsline {subsection}{\numberline {3.4.1}ATLAS\textsuperscript {3D}}{9}
-\contentsline {chapter}{\numberline {4}Results \& Conclusions}{14}
-\contentsline {section}{\numberline {4.1}ATLAS\textsuperscript {3D}}{14}
+\contentsline {chapter}{Acknowledgements}{iii}
+\contentsline {chapter}{\numberline {1}Background Theory}{1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}
+\contentsline {section}{\numberline {1.2}Variations of the Spin Parameter}{3}
+\contentsline {section}{\numberline {1.3}S\'ersic Index of the Single Fit and Bulge Component, n and n$_{b}$}{4}
+\contentsline {section}{\numberline {1.4}Disk-to-Total Light Ratio, D/T}{4}
+\contentsline {section}{\numberline {1.5}ATLAS$^{3D}$}{5}
+\contentsline {chapter}{\numberline {2}Methods}{6}
+\contentsline {section}{\numberline {2.1}The scikit-learn library}{6}
+\contentsline {section}{\numberline {2.2}Decision Trees}{6}
+\contentsline {subsection}{\numberline {2.2.1}Parameters}{9}
+\contentsline {section}{\numberline {2.3}Data \& Formatting}{9}
+\contentsline {subsection}{\numberline {2.3.1}ATLAS\textsuperscript {3D}}{9}
+\contentsline {chapter}{\numberline {3}Results \& Conclusions}{14}
+\contentsline {section}{\numberline {3.1}ATLAS\textsuperscript {3D}}{14}

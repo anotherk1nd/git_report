@@ -927,6 +927,25 @@
       \verb http://www.mathwords.com/b/binomial_probability_formula.htm
       \endverb
     \endentry
+    \entry{Lectures}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5bbd6b673ecbd9522ee56885885e7888}{%
+           family={Wilkins},
+           familyi={W\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5bbd6b673ecbd9522ee56885885e7888}
+      \strng{fullhash}{5bbd6b673ecbd9522ee56885885e7888}
+      \strng{authornamehash}{5bbd6b673ecbd9522ee56885885e7888}
+      \strng{authorfullhash}{5bbd6b673ecbd9522ee56885885e7888}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Extragalactic Astronomy Module Lectures}
+      \field{year}{2017}
+    \endentry
     \entry{sklearn}{misc}{}
       \name{author}{1}{}{%
         {{hash=e68ec1e0f408f645d33fd38e2cb09653}{%
@@ -945,26 +964,6 @@
       \field{title}{1.10. Decision Trees}
       \verb{url}
       \verb http://scikit-learn.org/stable/modules/tree.html#tree
-      \endverb
-    \endentry
-    \entry{forestsk}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=e68ec1e0f408f645d33fd38e2cb09653}{%
-           family={SKDevelopers},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{e68ec1e0f408f645d33fd38e2cb09653}
-      \strng{fullhash}{e68ec1e0f408f645d33fd38e2cb09653}
-      \strng{authornamehash}{e68ec1e0f408f645d33fd38e2cb09653}
-      \strng{authorfullhash}{e68ec1e0f408f645d33fd38e2cb09653}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{scikit-learn 0.18.1 documentation}
-      \field{title}{Ensemble Methods}
-      \verb{url}
-      \verb http://scikit-learn.org/stable/modules/ensemble.html#forest
       \endverb
     \endentry
     \entry{ofit}{misc}{}
