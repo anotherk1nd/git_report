@@ -28,7 +28,15 @@ and,
 \begin{equation}
 P_{s}(k_{s},n_{s}) = p_{s}^{k_{s}}q_{s}^{n_{s}-k_{s}}
 \end{equation}
-where the subscripts denote the 2 populations.This gives a $\approx$ 2\% probability of producing these results based on a random guess for slow rotators and a negligible probability for fast rotators, suggesting a significant improvement. \\
+where the subscripts denote the 2 populations.This gives a $\approx$ 2\% probability of producing these results based on a random guess for slow rotators and a negligible probability for fast rotators, suggesting a significant improvement. From the confusion matrix \ref{fig:confmatDT}, there is a high level of success for fast rotators, but this is offset by the inaccuracy in predicting slow rotators, and the probabilities complementary in this case. This suggests that the algorithm was attempting to reproduce a detected ratio of fast to slow rotators blindly, and scoring inaccurately proportionally. \\
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{dectreesuccesscol.png}
+	\caption{The success of the algorithm appears widely distributed and is not restricted to values above or below a threshold value of n.
+	}
+	\label{fig:nsuccess}
+\end{figure}
+As can bee seen in \ref{fig:nsuccess}, the 
 When we look at the D/T dependence of the $\lambda_{Re}$ value, we see a more promising separation of the two populations, with a value of D/T $\approx 0.28$ producing a low level of impurity. This parameter was identified as the most promising by \cite{Krajnovic2013}.
 \begin{figure}[ht]
 	\centering
@@ -37,7 +45,15 @@ When we look at the D/T dependence of the $\lambda_{Re}$ value, we see a more pr
 	}
 	\label{fig:dtlamre}
 \end{figure}
-The algorithm was then trained using D/T, improving the success rate to 81\%. Interestingly, when we evaluate the success of the decision tree classifier for those galaxies with no exponential disk component, where D/T$\lesssim $0.05, we find that the decision tree is still able to correctly classify the majority of galaxies.
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=\textwidth]{DT_success_fastslow.png}
+	\caption{We see a high rate of success for fast rotators, but slow rotators are almost universally incorrect.
+	}
+	\label{fig:dtfastslow}
+\end{figure}
+The algorithm was then trained using D/T, improving the success rate to 81\%. However, as can be seen in \ref{fig:dtfastslow}, the success is again down to an over reliance on predicting fast rotators producing high level of success due to the different population sizes.
+This is emphasised when we evaluate the success of the decision tree classifier for those galaxies with no exponential disk component, where D/T$\lesssim $0.05, we find that the decision tree is still able to correctly classify the majority of galaxies.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth]{DTSuccessBar.png}

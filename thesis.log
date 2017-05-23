@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  23 MAY 2017 10:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  23 MAY 2017 21:05
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1174,40 +1174,58 @@ Underfull \vbox (badness 5924) has occurred while \output is active []
  [14
 
 ]
-<images/DT_lamre.png, id=117, 1233.6489pt x 623.6901pt>
+<images/dectreesuccesscol.png, id=117, 578.16pt x 431.4519pt>
+File: images/dectreesuccesscol.png Graphic file (type png)
+
+<use images/dectreesuccesscol.png>
+Package pdftex.def Info: images/dectreesuccesscol.png used on input line 34.
+(pdftex.def)             Requested size: 483.69687pt x 360.95561pt.
+
+<images/DT_lamre.png, id=118, 1233.6489pt x 623.6901pt>
 File: images/DT_lamre.png Graphic file (type png)
 
 <use images/DT_lamre.png>
-Package pdftex.def Info: images/DT_lamre.png used on input line 35.
+Package pdftex.def Info: images/DT_lamre.png used on input line 43.
 (pdftex.def)             Requested size: 483.69687pt x 244.54195pt.
 
-<images/DTSuccessBar.png, id=118, 939.51pt x 451.6875pt>
+<images/DT_success_fastslow.png, id=119, 578.16pt x 431.4519pt>
+File: images/DT_success_fastslow.png Graphic file (type png)
+
+<use images/DT_success_fastslow.png>
+Package pdftex.def Info: images/DT_success_fastslow.png used on input line 50.
+(pdftex.def)             Requested size: 483.69687pt x 360.95561pt.
+
+
+LaTeX Warning: Reference `fig:dtfastslow' on page 15 undefined on input line 55
+.
+
+<images/DTSuccessBar.png, id=120, 939.51pt x 451.6875pt>
 File: images/DTSuccessBar.png Graphic file (type png)
 
 <use images/DTSuccessBar.png>
-Package pdftex.def Info: images/DTSuccessBar.png used on input line 43.
+Package pdftex.def Info: images/DTSuccessBar.png used on input line 59.
 (pdftex.def)             Requested size: 483.69687pt x 232.54239pt.
 
-<images/zerodt.png, id=119, 1233.6489pt x 623.6901pt>
+<images/zerodt.png, id=121, 1233.6489pt x 623.6901pt>
 File: images/zerodt.png Graphic file (type png)
  <use images/zerodt.png>
-Package pdftex.def Info: images/zerodt.png used on input line 49.
+Package pdftex.def Info: images/zerodt.png used on input line 65.
 (pdftex.def)             Requested size: 483.69687pt x 244.54195pt.
 
-<images/multiplot_correctincorrect_2d_withcol.png, id=120, 1233.6489pt x 623.69
+<images/multiplot_correctincorrect_2d_withcol.png, id=122, 1233.6489pt x 623.69
 01pt>
 File: images/multiplot_correctincorrect_2d_withcol.png Graphic file (type png)
  <use images/multiplot_correctincorrect_2d_withcol.png>
 Package pdftex.def Info: images/multiplot_correctincorrect_2d_withcol.png used 
-on input line 59.
+on input line 75.
 (pdftex.def)             Requested size: 483.69687pt x 244.54195pt.
 
-<images/norm_conf_mat_DTandSersic_normalised.png, id=121, 578.16pt x 431.4519pt
+<images/norm_conf_mat_DTandSersic_normalised.png, id=123, 578.16pt x 431.4519pt
 >
 File: images/norm_conf_mat_DTandSersic_normalised.png Graphic file (type png)
  <use images/norm_conf_mat_DTandSersic_normalised.png>
 Package pdftex.def Info: images/norm_conf_mat_DTandSersic_normalised.png used o
-n input line 66.
+n input line 82.
 (pdftex.def)             Requested size: 483.69687pt x 360.95561pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1216,31 +1234,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16 <./images/DT_lamre.png> <./images/DTSuccessBar.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./images/dectreesuccesscol.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17 <./images/zerodt.png>]
+[17 <./images/DT_lamre.png>]
 
 LaTeX Warning: Text page 18 contains only floats.
 
+[18 <./images/DT_success_fastslow.png> <./images/DTSuccessBar.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Overfull \vbox (2.21445pt too high) has occurred while \output is active []
-
-
-[18 <./images/multiplot_correctincorrect_2d_withcol.png> <./images/norm_conf_ma
-t_DTandSersic_normalised.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 78.
+ [19 <./images/zerodt.png> <./images/multiplot_correctincorrect_2d_withcol.png>
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 94.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
-) [19]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
+ [20 <./images/norm_conf_mat_DTandSersic_normalised.png>]) [21]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 40.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
@@ -1251,7 +1271,7 @@ Overfull \hbox (5.05705pt too wide) in paragraph at lines 42--42
 s-tro-nom-i-cal So-ci-ety \T1/cmr/m/n/12 379.2 (Jan. 2007), pp. 401
  []
 
-[20
+[22
 
 ]
 Overfull \hbox (0.38171pt too wide) in paragraph at lines 42--42
@@ -1259,7 +1279,10 @@ Overfull \hbox (0.38171pt too wide) in paragraph at lines 42--42
  http://www.808multimedia.com/winnt/kernel.htm. Ac-
  []
 
-[21] (thesis.aux)
+[23] (thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1268,10 +1291,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22020 strings out of 493333
- 421081 string characters out of 3139191
- 806000 words of memory out of 3000000
- 25264 multiletter control sequences out of 15000+200000
+ 22032 strings out of 493333
+ 421425 string characters out of 3139191
+ 806011 words of memory out of 3000000
+ 25274 multiletter control sequences out of 15000+200000
  30960 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,16n,46p,10405b,1345s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1301,9 +1324,9 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX
 lic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb>
-Output written on thesis.pdf (33 pages, 1616840 bytes).
+Output written on thesis.pdf (35 pages, 1670796 bytes).
 PDF statistics:
- 659 PDF objects out of 1000 (max. 8388607)
+ 670 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
