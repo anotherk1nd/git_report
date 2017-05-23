@@ -69,6 +69,15 @@ This is emphasised when we evaluate the success of the decision tree classifier 
 \end{figure}
 The success rate for just these galaxies is $\approx$77\% which is more than that expected from the binomial distribution. However, the apparent success is undermined when we plot the results for just these galaxies in \ref{fig:zerodt}.
 The algorithm benefited from the fact that only $\approx$10\% of the galaxies with no disk in the test set were slow rotators. If the choice was made randomly, the success would be $\approx$15\%, and so represents a significant improvement, but would hardly require such statistical learning methods to make the conclusion that if there is no disk it is most likely a fast rotator.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{DT_notzeros.png}
+	\caption{Investigating the results where D/T>0.05. We see that the algorithm predicts galaxies to be universally fast rotators.
+	}
+	\label{fig:notzerodt}
+\end{figure}
+In order to see how the algorithm would perform in the absence of the large number of galaxies with no exponential disk, the algorithm was trained with only those with D/T>0.0 \ref{fig:notzerodt}. The algorithm faired better, increasing success to $\approx$ 87\%.
+Interestingly, the algorithm performs better when trained on the full dataset (including the zero D/T) amongst galaxies that do have an exponential disk but the results are less successful because of the number of galaxies that have zero disk component and are fast rotators. Following this reasoning, the algorithm was trained on the full training set, but tested on the edited test set, in the hope that it would increase performance. However, it produced the same results.
 The algorithm was then trained using both D/T and Se\'rsic index of the single fit by passing the features as an $n\times 2$ matrix, resulting in a success rate of 75\%, exceeding expectations based on random guess alone slightly, but is less than what was achieved using D/T alone. 
 \begin{figure}[h!]
 	\centering
